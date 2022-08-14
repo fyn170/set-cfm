@@ -1,0 +1,135 @@
+# Online Config Subscribe
+# Clash For Magisk
+# Credits [fyn170](https://github.com/fyn170/set-oc)
+tproxy-port: 9898
+mode: 'rule' 
+allow-lan: true
+unified-delay: true
+bind-address: "*"
+log-level: silent
+ipv6: false
+geodata-mode: true
+external-controller: 0.0.0.0:9090
+external-ui: dashboard
+tcp-concurrent: false
+secret: ""
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - '1.1.1.1'
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter: []
+  nameserver:
+    - 1.1.1.1
+  fallback: []
+  fallback-filter:
+    geoip: false 
+    geoip-code: 'ID'
+    geosite: []
+    domain: []
+    ipcidr: []
+tun:
+  enable: false
+  stack: system
+  dns-hijack: ['any:53', 'tcp://any:53']
+  auto-route: true
+  auto-detect-interface: true
+sniffer:
+  enable: true
+  sniffing:
+    - tls
+    - http
+  port-whitelist: []
+  skip-domain: []
+  force-domain: []
+iptables: {enable: false, inbound-interface: "lo", bypass: []}
+interface-name: ""
+enable-process: false
+profile: {store-selected: true, store-fake-ip: false}
+proxies:
+proxy-providers:
+  Server:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3JT8zZ2"
+    path: "./confs/akun/akun.yaml"
+    health-check:
+      enable: true
+      interval: 99
+      url: http://www.gstatic.com/generate_204
+    interval: "300"
+proxy-groups:
+- name: 18+
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+- name: ADS
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+- name: Chat
+  type: select
+  strategy: consistent-hashing
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Server
+- name: Server
+  type: url-test
+  strategy: consistent-hashing
+  disable-udp: false
+  use:
+  - Server
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+rules:
+  - RULE-SET,18+,Server
+  - RULE-SET,Ads,ADS
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Gaming,Server
+  - RULE-SET,Sosmed,Server
+  - RULE-SET,Stream,Server
+  - MATCH,GLOBAL
+rule-providers:
+  18+:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3pdZNeN"
+    path: "./confs/rule/saru.yaml"
+    inteval: "86400"
+  Ads:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3SMUFf8"
+    path: "./confs/rule/ads.yaml"
+    interval: "86400"
+  Direct:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3zRmn1H"
+    path: "./confs/rule/direct.yaml"
+    interval: "86400"
+  Gaming:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3PvrRVK"
+    path: "./confs/rule/gaming.yaml"
+    inteval: "86400"
+  Sosmed:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3Aie54m"
+    path: "./confs/rule/sosmed.yaml"
+    interval: "86400"
+  Stream:
+    type: http
+    behavior: domain
+    url: "https://bit.ly/3phtYlb"
+    path: "./confs/rule/gaming.yaml"
+    inteval: "86400"

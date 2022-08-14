@@ -1,0 +1,3 @@
+payload:
+  # reject
+   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
