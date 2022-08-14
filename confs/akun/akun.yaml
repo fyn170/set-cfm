@@ -1,3 +1,4 @@
 proxies:
   - {name: 2 GB / Day, server: 162.159.128.7, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-lb.sshkit.org, network: ws, ws-opts: {path: /sshkit/Geie/62f74138746d7/, headers: {Host: id-lb.sshkit.org}}, udp: true}
+  - {name: 60 GB / Month, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wc.web.whatsapp.com, network: ws, ws-opts: {path: /sshkit/Geie/62f74138746d7/, headers: {Host: id-lb.sshkit.org}}, udp: true}
 # Experied 1 week
