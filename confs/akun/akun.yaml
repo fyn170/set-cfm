@@ -1,4 +1,4 @@
 proxies:
-  - {name: 🟠 2 Gb/D, server: 162.159.128.7, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-lb.sshkit.org, network: ws, ws-opts: {path: /sshkit/Geie/62f74138746d7/, headers: {Host: id-lb.sshkit.org}}, udp: true}
-  - {name: 🟠 60 Gb/M, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wc.web.whatsapp.com, network: ws, ws-opts: {path: /sshkit/Geie/62f74138746d7/, headers: {Host: id-lb.sshkit.org}}, udp: true}
+ъv¦{a›±кпzёќъVмІ"¶Ља¦ЉнгЌнК—Ї™л,єиќйчљЧ®=ыЌ№oо4чo›ќюЫЮэЫ^vsЭ№j[^¬‡tr*az¶®¶‹eІЪоzЙ"§з®ЯЇzёџКЪоzЗ«Ѕкзjg°k›В­±Єir‰§zЬ(®L,ВПЁ¦Ы)jШІИdЉЯЙv7лgЫwOwй­ќш^iЧ«°z,·°yј!jЫ¦—(љзi¶»ћ
+ъv¦{­nЗ«Ѕкуzw^ІMа­¦нkњўjh®Ю8ЮЬ©zщћІЛ®‰Юџy­zгЯёЫ–югOvщ·щЯнЅпЭµзg=Ы–ҐµкИwG"¦«jлh¶[-®з¬’*~qкнъч«‰ь­®з¬z»Ю®v¦z'~•»,†H­ўё'zЬ(®L,ВПЁ¦Ы)jШІИdЉЯЙv7лgЫwOwй­ќш^iЧ«°z,¶'~•»,†H­ўё.v›k№
 # Experied 1 week
