@@ -42,6 +42,7 @@ tun:
 profile:
   store-selected: true
   store-fake-ip: true
+proxies:
 proxy-providers:
   Server:
     type: http
@@ -93,39 +94,39 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/saru.yaml"
     path: "./confs/rule/saru.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
   Ads:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/ads.yaml"
     path: "./confs/rule/ads.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
   Direct:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/direct.yaml"
     path: "./confs/rule/direct.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
   Gaming:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/gaming.yaml"
     path: "./confs/rule/gaming.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
   Sosmed:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/sosmed.yaml"
     path: "./confs/rule/sosmed.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
   Stream:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/stream.yaml"
-    tolernace: "86400"
+    tolerance: "86400"
       interval: "300"
