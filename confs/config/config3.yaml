@@ -177,5 +177,4 @@ rule-providers:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/stream.yaml"
-    path: "./confs/rule/gaming.yaml"
     inteval: "86400"
