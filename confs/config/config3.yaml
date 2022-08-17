@@ -55,7 +55,7 @@ proxy-providers:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/akun.yaml"
+    path: "./confs/provider/akun.yaml"
     health-check:
       enable: true
       interval: 99
@@ -99,7 +99,7 @@ rule-providers:
   18+:
     type: http
     behavior: domain
-    url: "https://bit.ly/3C2dvZP"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/saru.yaml"
     path: "./confs/rule/saru.yaml"
     interval: "86400"
   Ads:
