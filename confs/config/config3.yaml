@@ -101,7 +101,7 @@ proxy-providers:
   Server:
     type: http
     behavior: domain
-    url: "https://bit.ly/3STvpnl"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
     path: "./confs/akun/akun.yaml"
     health-check:
       enable: true
@@ -152,30 +152,30 @@ rule-providers:
   Ads:
     type: http
     behavior: domain
-    url: "https://bit.ly/3C036xI"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/ads.yaml"
     path: "./confs/rule/ads.yaml"
     interval: "86400"
   Direct:
     type: http
     behavior: domain
-    url: "https://bit.ly/3dvM1By"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/direct.yaml"
     path: "./confs/rule/direct.yaml"
     interval: "86400"
   Gaming:
     type: http
     behavior: domain
-    url: "https://bit.ly/3bVR8dS"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/gaming.yaml"
     path: "./confs/rule/gaming.yaml"
     inteval: "86400"
   Sosmed:
     type: http
     behavior: domain
-    url: "https://bit.ly/3ppfI9T"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/sosmed.yaml"
     path: "./confs/rule/sosmed.yaml"
     interval: "86400"
   Stream:
     type: http
     behavior: domain
-    url: "https://bit.ly/3zQJhGm"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/stream.yaml"
     path: "./confs/rule/gaming.yaml"
     inteval: "86400"
