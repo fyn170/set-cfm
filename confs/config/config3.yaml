@@ -147,7 +147,7 @@ rule-providers:
     behavior: domain
     url: "https://bit.ly/3C2dvZP"
     path: "./confs/rule/saru.yaml"
-    inteval: "86400"
+    interval: "86400"
   Ads:
     type: http
     behavior: domain
