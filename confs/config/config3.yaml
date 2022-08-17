@@ -96,6 +96,7 @@ dns:
   - 8.8.4.4
   - https://dns.google/dns-query
   - tls://dns.google
+proxies:
 proxy-providers:
   Server:
     type: http
