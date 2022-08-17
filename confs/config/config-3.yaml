@@ -1,108 +1,62 @@
 # Online Config Subscribe
 # Clash For Magisk
-# Credits [fyn170](https://github.com/fyn170/conf-cfm)
----
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-tproxy-port: 7895
+# Credits [fyn170](https://github.com/fyn170/set-oc)
+tproxy-port: 9898
+mode: 'rule' 
 allow-lan: true
-mode: rule
-log-level: info
+unified-delay: true
+bind-address: "*"
+log-level: silent
 ipv6: false
+geodata-mode: true
 external-controller: 0.0.0.0:9090
-external-ui: "/dashboard/dist"
+external-ui: dashboard
+tcp-concurrent: false
+secret: ""
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: fake-ip
-  listen: 127.0.0.1:7874
-  fallback-filter:
-    geoip: true
-    geoip-code: ID
-    ipcidr:
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
-    - 127.0.0.0/8
-    - 169.254.0.0/16
-    - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
-    - 192.168.0.0/16
-    - 198.18.0.0/15
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/4
-    - 240.0.0.0/4
-    - 255.255.255.255/32
-    domain:
-    - "+.google.com"
-    - "+.netflix.com"
-    - "+.facebook.com"
-    - "+.youtube.com"
-    - "+.githubusercontent.com"
-    - "+.googlevideo.com"
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-    - msftconnecttest.com
-    - msftncsi.com
-  fake-ip-filter:
-  - "+.pool.ntp.org"
-  - ntp7.*.com
-  - ntp6.*.com
-  - ntp5.*.com
-  - ntp4.*.com
-  - ntp3.*.com
-  - ntp2.*.com
-  - ntp1.*.com
-  - ntp.*.com
-  - time7.*.com
-  - time6.*.com
-  - time5.*.com
-  - time4.*.com
-  - time3.*.com
-  - time2.*.com
-  - time1.*.com
-  - time.*.apple.com
-  - time.*.edu.cn
-  - time.*.gov
-  - time.*.com
-  - "*.home.arpa"
-  - "*.local"
-  - "*.test"
-  - "*.localhost"
-  - "*.invalid"
-  - "*.example"
-  - "*.localdomain"
-  - time1.cloud.tencent.com
-  - "*.ntp.org"
-  - "*.time.edu"
-  - "*.lan"
-  - "*.ntp.org.cn"
-  - "*.time.edu.cn"
-  fake-ip-range: 198.18.0.1/16
   default-nameserver:
-  - 8.8.8.8
-  - 8.8.4.4
-  - 1.1.1.1
-  - 1.0.0.1
+    - '1.1.1.1'
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter: []
   nameserver:
-  - dhcp://"wlan0"
-  - dhcp://"usb0"
-  - 8.8.8.8
-  - 8.8.4.4
-  - https://dns.google/dns-query
-  - tls://dns.google
+    - 1.1.1.1
+  fallback: []
+  fallback-filter:
+    geoip: false 
+    geoip-code: 'ID'
+    geosite: []
+    domain: []
+    ipcidr: []
+tun:
+  enable: false
+  stack: system
+  dns-hijack: ['any:53', 'tcp://any:53']
+  auto-route: true
+  auto-detect-interface: true
+sniffer:
+  enable: true
+  sniffing:
+    - tls
+    - http
+  port-whitelist: []
+  skip-domain: []
+  force-domain: []
+iptables: {enable: false, inbound-interface: "lo", bypass: []}
+interface-name: ""
+enable-process: false
+profile: {store-selected: true, store-fake-ip: false}
 proxies:
 proxy-providers:
   Server:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/config/akun.yaml"
+    path: "./confs/akun/akun.yaml"
     health-check:
       enable: true
       interval: 99
