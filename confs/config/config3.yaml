@@ -51,12 +51,13 @@ interface-name: ""
 enable-process: false
 profile: {store-selected: true, store-fake-ip: false}
 proxies:
+proxies:
 proxy-providers:
   Server:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/akun/akun.yaml"
+    path: "./confs/akun.yaml"
     health-check:
       enable: true
       interval: 99
