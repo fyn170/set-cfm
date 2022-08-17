@@ -102,7 +102,7 @@ proxy-providers:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/akun/akun.yaml"
+    path: "./confs/config/akun.yaml"
     health-check:
       enable: true
       interval: 99
