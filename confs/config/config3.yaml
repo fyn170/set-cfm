@@ -50,8 +50,6 @@ iptables: {enable: false, inbound-interface: "lo", bypass: []}
 interface-name: ""
 enable-process: false
 profile: {store-selected: true, store-fake-ip: false}
-proxies:
-proxies:
 proxy-providers:
   Server:
     type: http
