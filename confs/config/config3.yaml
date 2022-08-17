@@ -1,24 +1,35 @@
 # Online Config Subscribe
 # Clash For Magisk
-# Credits [fyn170](https://github.com/fyn170/set-oc)
+# Credits [fyn170](https://github.com/fyn170/conf-cfm)
 
+redir-port: 7892
+tproxy-port: 7895
 port: 7890
 socks-port: 7891
-redir-port: 7892
 mixed-port: 7893
-tproxy-port: 7895
 mode: rule
 log-level: info
 allow-lan: true
 external-controller: 0.0.0.0:9090
-external-ui: "/dashboard/dist"
+secret: reyre
 bind-address: "*"
-secret: ""
+external-ui: "/dashboard/dist"
 ipv6: false
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
   nameserver:
-  - 8.8.8.8
-  - 8.8.4.4
+  - 192.168.8.1
+  - 192.168.9.1
+  - dhcp://"eth1"
+  - dhcp://"wwan0"
   - https://dns.adguard.com/dns-query
   - https://dns-google.com/dns-query
   - tls://dns.adguard.com
@@ -31,102 +42,81 @@ dns:
   fake-ip-filter:
   - "+.*"
   default-nameserver:
-  - 8.8.8.8
-  - 8.8.4.4
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-  - tcp://8.8.8.8:53
-  - tcp://8.8.4.4:53
-profile:
-  store-selected: true
-  store-fake-ip: true
+  - 192.168.9.1
+  - 192.168.8.1
 proxies:
 proxy-providers:
   Server:
     type: http
-    behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/provider/akun.yaml"
+    path: "./confs/akun/akun.yaml"
+    interval: 99
     health-check:
       enable: true
-      tolerance: 99
       url: http://www.gstatic.com/generate_204
-    interval: "300"
+      interval: 300
 proxy-groups:
-  - name: 18+
-    type: select
-    proxies:
-    - DIRECT
-    - REJECT
-  - name: ADS
-    type: select
-    proxies:
-    - DIRECT
-    - REJECT
-  - name: Chat
-    type: select
-    strategy: consistent-hashing
-    disable-udp: false
-    proxies:
-    - DIRECT
-    - Server
-  - name: Server
-    type: url-test
-    strategy: consistent-hashing
-    disable-udp: false
-    use:
-    - Server
-    url: http://www.gstatic.com/generate_204
-    interval: '300'
+- name: 18+
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+- name: ADS
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+- name: Chat
+  type: select
+  strategy: consistent-hashing
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Server
+- name: Server
+  type: url-test
+  strategy: consistent-hashing
+  disable-udp: false
+  use:
+  - Server
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
 rules:
-  - RULE-SET,18+,Server
-  - RULE-SET,Ads,ADS
-  - RULE-SET,Direct,DIRECT
-  - RULE-SET,Gaming,Server
-  - RULE-SET,Sosmed,Server
-  - RULE-SET,Stream,Server
-  - MATCH,GLOBAL
+- RULE-SET,18+,Server
+- RULE-SET,Ads,ADS
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Gaming,Server
+- RULE-SET,Sosmed,Server
+- RULE-SET,Stream,Server
+- MATCH,GLOBAL
 rule-providers:
   18+:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/saru.yaml"
     path: "./confs/rule/saru.yaml"
-    tolerance: "86400"
-      interval: "300"
   Ads:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/ads.yaml"
     path: "./confs/rule/ads.yaml"
-    tolerance: "86400"
-      interval: "300"
   Direct:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/direct.yaml"
     path: "./confs/rule/direct.yaml"
-    tolerance: "86400"
-      interval: "300"
   Gaming:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/gaming.yaml"
     path: "./confs/rule/gaming.yaml"
-    tolerance: "86400"
-      interval: "300"
   Sosmed:
     type: http
-    behavior: domain
+    behavior: domaim
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/sosmed.yaml"
-    path: "./confs/rule/sosmed.yaml"
-    tolerance: "86400"
-      interval: "300"
+    path: "./confs/ruleset/sosmed.yaml"
   Stream:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/stream.yaml"
-    tolerance: "86400"
-      interval: "300"
+    path: "./confs/ruleset/stream.yaml"
