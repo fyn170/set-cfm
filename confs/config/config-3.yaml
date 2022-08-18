@@ -1,8 +1,7 @@
 # Online Config Subscribe
 # Clash For Magisk
 # Credits [fyn170](https://github.com/fyn170/conf-cfm)
-
-
+----
 redir-port: 7892
 tproxy-port: 7895
 port: 7890
