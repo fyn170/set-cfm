@@ -2,6 +2,7 @@
 # Clash For Magisk
 # Credits [fyn170](https://github.com/fyn170/conf-cfm)
 
+
 redir-port: 7892
 tproxy-port: 7895
 port: 7890
@@ -11,7 +12,7 @@ mode: rule
 log-level: info
 allow-lan: true
 external-controller: 0.0.0.0:9090
-secret: reyre
+secret: ""
 bind-address: "*"
 external-ui: "/dashboard/dist"
 ipv6: false
