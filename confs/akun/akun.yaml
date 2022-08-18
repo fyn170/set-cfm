@@ -4,5 +4,7 @@ proxies:
   - {name: 🇮🇩 ID-1, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wa.web.whatsapp.com, network: ws, ws-opts: {path: /sshkit/vsga/62fcdfbf46ec8/, headers: {Host: wa.web.whatsapp.com}}, udp: true}
   - {name: 🇮🇩 ID-2, server: zendesk3.grabtaxi.com, port: 443, type: trojan, password: 2915c900-1e2a-11ed-baf3-1239d0255272, skip-cert-verify: true, sni: id2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
   - {name: ♻️ Backup, server: idtj-herza.bonds.id, port: 443, type: trojan, password: c058bd50-1ef2-11ed-bb91-1239d0255272, skip-cert-verify: true, sni: "", udp: true}
+  - {name: SG-1, server: sg-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wa.web.whatsapp.com, network: ws, ws-opts: {path: /sshkit/poiu/62fe392cf139f/, headers: {Host: wa.web.whatsapp.com}}, udp: true}
+  - {name: SG-2, server: zendesk4.grabtaxi.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.sshkit.org, network: ws, ws-opts: {path: /sshkit/poiu/62fe392cf139f/, headers: {Host: sg-lb.sshkit.org}}, udp: true}
 
 # Experied 1 week
