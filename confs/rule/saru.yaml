@@ -23,5 +23,7 @@ payload:
    - DOMAIN-SUFFIX,pornhubpremium.com
    - DOMAIN-KEYWORD,japonx
    - DOMAIN-KEYWORD,japronx
+   - DOMAIN-SUFFIX,fuckcams.com
    - IP-CIDR,185.207.236.38/24
    - IP-CIDR,185.207.236.164/24
+   - IP-CIDR,202.3.218.137/24
