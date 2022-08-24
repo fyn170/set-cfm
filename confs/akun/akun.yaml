@@ -1,6 +1,4 @@
 proxies:
-  - {name: 🥺 1, server: id-lb.sshkit.org, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wc.web.whatsapp.com, network: ws, ws-opts: {path: /sshkit/Vhhv/63028d90a31e6/, headers: {Host: wc.web.whatsapp.com}}, udp: true}
-  - {name: 😢 2, server: zendesk3.grabtaxi.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-lb.sshkit.org, network: ws, ws-opts: {path: /sshkit/Vhhv/63028d90a31e6/, headers: {Host: id-lb.sshkit.org}}, udp: true}
   - {name: 😎 wa, server: sg-ovh.tjvpn.org, port: 443, type: trojan, password: 66731ae0-229f-11ed-b133-225401db9d57, skip-cert-verify: true, sni: wa.web.whatsapp.com, udp: true}
   - {name: 🤓 wss, server: zendesk4.grabtaxi.com, port: 443, type: trojan, password: 66731ae0-229f-11ed-b133-225401db9d57, skip-cert-verify: true, sni: sg-ovh.tjvpn.org, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-ovh.tjvpn.org}}, udp: true}
   - {name: 🦧 WA, server: id3-ws.xvless.xyz, port: 443, type: vless, uuid: 7e1ece4a-ade0-4dc0-9343-723a18799b71, cipher: auto, tls: true, skip-cert-verify: true, servername: wc.web.whatsapp.com, network: ws, ws-opts: {path: /websocket, headers: {Host: id3-ws.xvless.xyz}}, udp: true}
