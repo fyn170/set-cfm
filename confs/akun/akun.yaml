@@ -5,7 +5,7 @@ proxies:
   - {name: 🤓 wss, server: zendesk4.grabtaxi.com, port: 443, type: trojan, password: 66731ae0-229f-11ed-b133-225401db9d57, skip-cert-verify: true, sni: sg-ovh.tjvpn.org, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-ovh.tjvpn.org}}, udp: true}
   - {name: 🦧 WA, server: id3-ws.xvless.xyz, port: 443, type: vless, uuid: 7e1ece4a-ade0-4dc0-9343-723a18799b71, cipher: auto, tls: true, skip-cert-verify: true, servername: wc.web.whatsapp.com, network: ws, ws-opts: {path: /websocket, headers: {Host: id3-ws.xvless.xyz}}, udp: true}
   - {name: 🦧 WSS, server: zendesk2.grabtaxi.com, port: 443, type: vless, uuid: 7e1ece4a-ade0-4dc0-9343-723a18799b71, cipher: auto, tls: true, skip-cert-verify: true, servername: id3-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id3-ws.xvless.xyz}}, udp: true}
-  - {name: 🇨🇳 Backup-1, server: id2-trojan.bonds.id, port: 443, type: trojan, password: d7a967c0-23bd-11ed-97a8-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
-  - {name: 🇨🇳 Backup-2, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 2c8055c0-23be-11ed-882d-1239d0255272, skip-cert-verify: true, sni: wc.web.whatsapp.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
+  - {name: 🔵 Backup-1, server: id2-trojan.bonds.id, port: 443, type: trojan, password: d7a967c0-23bd-11ed-97a8-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
+  - {name: 🔵 Backup-2, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 2c8055c0-23be-11ed-882d-1239d0255272, skip-cert-verify: true, sni: wc.web.whatsapp.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
 
 # Server update
