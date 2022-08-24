@@ -26,10 +26,8 @@ profile:
   store-fake-ip: true
 dns:
   nameserver:
-  - 192.168.8.1
-  - 192.168.9.1
-  - dhcp://"eth1"
-  - dhcp://"wwan0"
+  - 8.8.8.8
+  - 8.8.4.4
   - https://dns.adguard.com/dns-query
   - https://dns-google.com/dns-query
   - tls://dns.adguard.com
@@ -42,15 +40,15 @@ dns:
   fake-ip-filter:
   - "+.*"
   default-nameserver:
-  - 192.168.9.1
-  - 192.168.8.1
+  - 8.8.8.8
+  - 8.8.4.4
 proxies:
 proxy-providers:
   Server:
     type: http
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
     path: "./confs/akun/akun.yaml"
-    interval: 99
+    interval: 60
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
