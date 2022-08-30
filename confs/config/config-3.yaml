@@ -42,6 +42,7 @@ dns:
   default-nameserver:
   - 8.8.8.8
   - 8.8.4.4
+proxies:
 proxy-providers:
   Server:
     type: http
@@ -83,6 +84,7 @@ rules:
 - RULE-SET,Ads,ADS
 - RULE-SET,Direct,DIRECT
 - RULE-SET,Gaming,Server
+- RULE-SET,Reject,REJECT
 - RULE-SET,Sosmed,Server
 - RULE-SET,Stream,Server
 - MATCH,GLOBAL
@@ -114,7 +116,7 @@ rule-providers:
     path: "./confs/rule/reject.yaml"
   Sosmed:
     type: http
-    behavior: domain
+    behavior: classical
     url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/sosmed.yaml"
     path: "./confs/rule/sosmed.yaml"
   Stream:
