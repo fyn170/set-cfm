@@ -47,7 +47,7 @@ proxy-providers:
   Server:
     type: http
     behavior: classical
-    url: "https://gist.githubusercontent.com/fyn170/e0ad5169808182ad4562d46aad81f7bb/raw/b2881e85ed76b82851d39d810679fce306aac8a5/akun.yaml"
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
     path: "./confs/akun/akun.yaml"
     health-check:
       enable: true
