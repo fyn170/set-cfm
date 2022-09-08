@@ -42,17 +42,6 @@ dns:
   default-nameserver:
   - 8.8.8.8
   - 8.8.4.4
-proxies:
-proxy-providers:
-  Server:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
-    path: "./confs/akun/akun.yaml"
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 120
 proxy-groups:
 - name: 18+
   type: select
@@ -88,6 +77,17 @@ rules:
 - RULE-SET,Sosmed,Server
 - RULE-SET,Stream,Server
 - MATCH,GLOBAL
+proxies:
+proxy-providers:
+  Server:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/akun/akun.yaml"
+    path: "./confs/akun/akun.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 rule-providers:
   18+:
     type: http
