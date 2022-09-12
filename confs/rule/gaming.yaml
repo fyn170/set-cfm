@@ -1453,4 +1453,7 @@ payload:
   # Riot Forge
   - DOMAIN-SUFFIX,convrgencegame.com
   - DOMAIN-SUFFIX,riotforgegames.com
-  - DOMAIN-SUFFIX,ruinedking.com  
+  - DOMAIN-SUFFIX,ruinedking.com
+  # Rthd
+  - DOMAIN-SUFFIX,tm-games.ru
+  - DOMAIN-SUFFIX,games.ru
