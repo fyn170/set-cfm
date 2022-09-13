@@ -9,5 +9,13 @@ proxies:
   - {name: 🥑 SG-Ovh Ws, server: zendesk4.grabtaxi.com, port: 443, type: trojan, password: 26695ac0-306b-11ed-a17b-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
   - {name: 🥭 SG-Udp, server: sg8-trojan.bonds.id, port: 443, type: trojan, password: cf6c5540-306a-11ed-9fc1-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}, udp: true}
   - {name: 🥭 SG-Udp Ws, server: zendesk4.grabtaxi.com, port: 443, type: trojan, password: cf6c5540-306a-11ed-9fc1-1239d0255272, skip-cert-verify: true, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}, udp: true}
+  - {name: 🛑v1.0, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 67275250-3358-11ed-8062-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, udp: true}
+  - {name: 🛑v1.1, server: zendesk4.grabtaxi.com, port: 443, type: trojan, password: 67275250-3358-11ed-8062-1239d0255272, skip-cert-verify: true, sni: id2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
+  - {name: 🚧v2.1, server: id5-trojan.bonds.id, port: 443, type: trojan, password: acb7b150-3358-11ed-acf6-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, udp: true}
+  - {name: 🚧v2.2, server: zendesk3.grabtaxi.com, port: 443, type: trojan, password: acb7b150-3358-11ed-acf6-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
+  - {name: 🚨v3.1, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: deacf900-3358-11ed-b262-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, udp: true}
+  - {name: 🚨v3.2, server: zendesk1.grabtaxi.com, port: 443, type: trojan, password: deacf900-3358-11ed-b262-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+  - {name: ⛽v4.1, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 1e958420-3359-11ed-a16f-1239d0255272, skip-cert-verify: true, sni: wa.web.whatsapp.com, udp: true}
+  - {name: ⛽v4.2, server: zendesk2.grabtaxi.com, port: 443, type: trojan, password: 1e958420-3359-11ed-a16f-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
 
 # Server update
