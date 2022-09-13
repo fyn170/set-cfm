@@ -1,5 +1,5 @@
 payload:
-  #zerotier
+  # zerotier
   - DOMAIN-SUFFIX,my.zerotier.com
   - DOMAIN-SUFFIX,zerotier.com
   - IP-CIDR,183.195.103.0/24 
