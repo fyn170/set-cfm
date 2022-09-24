@@ -1,4 +1,12 @@
 payload:
+  # Mobilelegends
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,m.mobilelegends.com
+  - DOMAIN-SUFFIX,img.mobilelegends.com
+  - DOMAIN-SUFFIX,play.mobilelegends.com
+  - DOMAIN-SUFFIX,mapi.mobilelegends.com
+  - DOMAIN-SUFFIX,mlapi.mobilelegends.com
+  - DOMAIN-SUFFIX,img-cdn.mobilelegends.com
   # FreeFire
   - DOMAIN-KEYWORD,freefire
   - DOMAIN-SUFFIX,garena.com
