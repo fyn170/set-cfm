@@ -37,3 +37,5 @@ payload:
    - DOMAIN-KEYWORD,japronx
    - IP-CIDR,185.207.236.38/24
    - IP-CIDR,185.207.236.164/24
+
+   # wait for the next update
