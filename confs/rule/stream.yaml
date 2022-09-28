@@ -5,9 +5,6 @@ payload:
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,gvt1.com
-  - IP-CIDR,74.125.24.188/16
-  - IP-CIDR,172.217.194.188/16
-  - IP-CIDR,142.250.4.188/16
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com
   - DOMAIN,alt3-mtalk.google.com
@@ -43,6 +40,9 @@ payload:
   - IP-CIDR,173.194.175.188/32,no-resolve
   - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
+  - IP-CIDR,74.125.24.188/16
+  - IP-CIDR,172.217.194.188/16
+  - IP-CIDR,142.250.4.188/16
   # Youtube
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
@@ -315,4 +315,25 @@ payload:
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN,cdn.registerdisney.go.com
-  # MATCH is not necessary here  
+  # Vidio
+  - DOMAIN-SUFFIX,thumbor.prod.vid.id
+  - DOMAIN-SUFFIX,static-playback.prod.vid.id
+  - DOMAIN-SUFFIX,vid.id
+  - DOMAIN-SUFFIX,static-playback-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,plenty.vidio.com
+  - DOMAIN-SUFFIX,vidio.com
+  - DOMAIN-SUFFIX,www.vidio.com
+  - DOMAIN-SUFFIX,api.vidio.com
+  - DOMAIN-SUFFIX,api-ns.vidio.com
+  - DOMAIN-SUFFIX,media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,static-web-prod-vidio.akamaized.net
+  - DOMAIN-SUFFIX,geo-id-media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,hermes.vidio.com
+  - DOMAIN-SUFFIX,token-media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,etslive-2-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,live-production.secureswiftcontent.com
+  - DOMAIN-SUFFIX,secureswiftcontent.com
+  - DOMAIN-SUFFIX,vidiocdn.com
+  - DOMAIN-KEYWORD,vidio
+  
+  # wait for the next update
