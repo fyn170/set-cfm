@@ -1,8 +1,7 @@
 proxies:
-  - {name: ⏺ SG, server: 104.17.3.81, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/Seeeq/633563d55b59b/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: ⏹ SG, server: 104.16.66.85, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/Seeeq/633563d55b59b/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: ❎ SG, server: 104.17.3.81, port: 443, type: vmess, uuid: c2eca21b-cd14-44b3-9b97-e2122a57d83e, sni: sgmws.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: wss://api.midtrans.com/vmess, headers: {Host: sgmws.mainssh.xyz}}}
   - {name: 🧸 ID, server: 104.17.3.81, port: 443, type: vless, uuid: 738a18d1-13c9-451b-880d-daeea26f3221, cipher: auto, tls: true, skip-cert-verify: true, servername: id1-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id1-ws.xvless.xyz}}, udp: true}
   - {name: 🃏 ID, server: 104.16.66.85, port: 443, type: vless, uuid: 738a18d1-13c9-451b-880d-daeea26f3221, cipher: auto, tls: true, skip-cert-verify: true, servername: id1-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id1-ws.xvless.xyz}}, udp: true}
-  - {name: 🖼 sg-lb, server: 104.17.3.81, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/lemotmin/6335b7473f2be/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: 🎨 sg-lb 2, server: 104.16.66.85, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/lemotmin/6335b7473f2be/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  
+
 # Server update
