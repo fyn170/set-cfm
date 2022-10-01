@@ -2,6 +2,7 @@ proxies:
   - {name: ❎ SG, server: 104.17.3.81, port: 443, type: vmess, uuid: c2eca21b-cd14-44b3-9b97-e2122a57d83e, sni: sgmws.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: wss://api.midtrans.com/vmess, headers: {Host: sgmws.mainssh.xyz}}}
   - {name: 🧸 ID, server: 104.17.3.81, port: 443, type: vless, uuid: 738a18d1-13c9-451b-880d-daeea26f3221, cipher: auto, tls: true, skip-cert-verify: true, servername: id1-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id1-ws.xvless.xyz}}, udp: true}
   - {name: 🃏 ID, server: 104.16.66.85, port: 443, type: vless, uuid: 738a18d1-13c9-451b-880d-daeea26f3221, cipher: auto, tls: true, skip-cert-verify: true, servername: id1-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id1-ws.xvless.xyz}}, udp: true}
-  
+  - {name: 🌦 BT, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: 0ced50a0-4163-11ed-81e4-1239d0255272, skip-cert-verify: true, sni: id2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
+  - {name: ⛱️ JK, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: 5ab880a0-4163-11ed-a962-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
 
 # Server update
