@@ -1,41 +1,45 @@
-payload:
-   # Situs Saru
-   - DOMAIN-SUFFIX,xnxx.com
-   - DOMAIN-SUFFIX,xnxx.com.sg
-   - DOMAIN-SUFFIX,cerdas.com
-   - DOMAIN-SUFFIX,pornhub.com
-   - DOMAIN-SUFFIX,michat.com
-   - DOMAIN-SUFFIX,xvideos.com
-   - DOMAIN-SUFFIX,xhday.com
-   - DOMAIN-SUFFIX,xhamster.com
-   - DOMAIN-SUFFIX,japonx.com
-   - DOMAIN-SUFFIX,japonx.tv
-   - DOMAIN-SUFFIX,japonx.net
-   - DOMAIN-SUFFIX,japonx.vip
-   - DOMAIN-SUFFIX,japronx.com
-   - DOMAIN-SUFFIX,japronx.tv
-   - DOMAIN-SUFFIX,japronx.net
-   - DOMAIN-SUFFIX,japronx.vip
-   - DOMAIN-SUFFIX,phncdn.com
-   - DOMAIN-SUFFIX,phprcdn.com
-   - DOMAIN-SUFFIX,pornhub.com
-   - DOMAIN-SUFFIX,cn.pornhub.com
-   - DOMAIN-SUFFIX,pornhubpremium.com
-   - DOMAIN-SUFFIX,javhdporn.net
-   - DOMAIN-SUFFIX,javhd.today
-   - DOMAIN-SUFFIX,hdjav.su
-   - DOMAIN-SUFFIX,xxxorientalvideos.com
-   - DOMAIN-SUFFIX,topchinesevideo.com
-   - DOMAIN-SUFFIX,pornjapanesesex.com
-   - DOMAIN-SUFFIX,xasiantits.com
-   - DOMAIN-SUFFIX,xxxjapangf.com
-   - DOMAIN-SUFFIX,hotasianp.com
-   - DOMAIN-SUFFIX,vjav.com
-   - DOMAIN-SUFFIX,asianfplace.com
-   - DOMAIN-SUFFIX,asianblowjob.top
-   - DOMAIN-KEYWORD,japonx
-   - DOMAIN-KEYWORD,japronx
-   - IP-CIDR,185.207.236.38/24
-   - IP-CIDR,185.207.236.164/24
+# OpenClash Rule
+# [Fynn]
+# (https://github.com/fyn170/conf-cfm)
 
-   # wait for the next update
+payload:
+  # Situs Saru
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,xnxx.com.sg
+  - DOMAIN-SUFFIX,cerdas.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,michat.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xhday.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,japonx.com
+  - DOMAIN-SUFFIX,japonx.tv
+  - DOMAIN-SUFFIX,japonx.net
+  - DOMAIN-SUFFIX,japonx.vip
+  - DOMAIN-SUFFIX,japronx.com
+  - DOMAIN-SUFFIX,japronx.tv
+  - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.vip
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,cn.pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,javhdporn.net
+  - DOMAIN-SUFFIX,javhd.today
+  - DOMAIN-SUFFIX,hdjav.su
+  - DOMAIN-SUFFIX,xxxorientalvideos.com
+  - DOMAIN-SUFFIX,topchinesevideo.com
+  - DOMAIN-SUFFIX,pornjapanesesex.com
+  - DOMAIN-SUFFIX,xasiantits.com
+  - DOMAIN-SUFFIX,xxxjapangf.com
+  - DOMAIN-SUFFIX,hotasianp.com
+  - DOMAIN-SUFFIX,vjav.com
+  - DOMAIN-SUFFIX,asianfplace.com
+  - DOMAIN-SUFFIX,asianblowjob.top
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - IP-CIDR,185.207.236.38/24
+  - IP-CIDR,185.207.236.164/24
+
+  - wait for the next update
