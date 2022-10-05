@@ -1,7 +1,13 @@
+# OpenClash Rule
+# [Fynn]
+# (https://github.com/fyn170/conf-cfm)
+
 payload:
   # Instagram
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,ig.me
+  - DOMAIN-SUFFIX,instagram.c10r.facebook.com
   # Whatsapp
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,oculus.com
