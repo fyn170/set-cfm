@@ -1,5 +1,9 @@
+# OpenClash Rule
+# [Fynn]
+# (https://github.com/fyn170/conf-cfm)
+
 payload:
-  # zerotier
+  # Zerotier
   - DOMAIN-SUFFIX,my.zerotier.com
   - DOMAIN-SUFFIX,zerotier.com
   - IP-CIDR,183.195.103.0/24 
