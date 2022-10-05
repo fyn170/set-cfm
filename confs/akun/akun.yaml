@@ -1,12 +1,12 @@
 proxies:
   - {name: 🇸🇬 SG1, server: www.xnxx.id.hidehost.me, port: 443, type: vless, uuid: baa49fe9-6383-4c11-89c9-2cc2b4d099c9, cipher: auto, tls: true, skip-cert-verify: true, servername: sg8-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: sg8-ws.xvless.xyz}}, udp: true}
   - {name: 🇸🇬 SG2, server: www.xnxx.id.hidehost.me, port: 443, type: vless, uuid: 31cb7f55-ed3b-46ca-9f96-ee6b78300c9e, cipher: auto, tls: true, skip-cert-verify: true, servername: id6-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id6-ws.xvless.xyz}}, udp: true}
-  - {name: 🌦 BT, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: 0ced50a0-4163-11ed-81e4-1239d0255272, skip-cert-verify: true, sni: id2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id2-trojan.bonds.id}}, udp: true}
-  - {name: ⛱️ JK, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: 5ab880a0-4163-11ed-a962-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
+  - {name: 🇸🇬 SG-Ovh, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: 43574e50-448b-11ed-bb6c-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+  - {name: ID-Herza, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: ac74d730-448a-11ed-a54e-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
+  - {name: ID-Ikd, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: f4b565f0-448a-11ed-b7d4-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+  - {name: ID-Btn, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: d59fe710-448b-11ed-bc67-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
   - {name: 🟥 MRP, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: d9ce1c25-913d-434e-9528-04ab3c92cf2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-ctb.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg1-ctb.v2rayserv.com}}, udp: true}
   - {name: 🟩 MSV, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: f37fd606-4918-4057-bee2-0badcb9fc369, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2-ctb.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg2-ctb.v2rayserv.com}}, udp: true}
   - {name: 🟪 PAP, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: 3ea9ef99-7d9e-47e8-94f6-add725b7fcb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg5.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg5.v2rayserv.com}}, udp: true}
-
-
 
 # Server update
