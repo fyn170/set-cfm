@@ -4,42 +4,41 @@
 
 payload:
   # Situs Saru
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,xnxx.com.sg
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - DOMAIN-SUFFIX,asianblowjob.top
+  - DOMAIN-SUFFIX,asianfplace.com
   - DOMAIN-SUFFIX,cerdas.com
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,michat.com
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xhday.com
-  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,cn.pornhub.com
+  - DOMAIN-SUFFIX,hdjav.su
+  - DOMAIN-SUFFIX,hotasianp.com
   - DOMAIN-SUFFIX,japonx.com
-  - DOMAIN-SUFFIX,japonx.tv
   - DOMAIN-SUFFIX,japonx.net
+  - DOMAIN-SUFFIX,japonx.tv
   - DOMAIN-SUFFIX,japonx.vip
   - DOMAIN-SUFFIX,japronx.com
-  - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
+  - DOMAIN-SUFFIX,javhd.today
+  - DOMAIN-SUFFIX,javhdporn.net
+  - DOMAIN-SUFFIX,michat.com
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,cn.pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-  - DOMAIN-SUFFIX,javhdporn.net
-  - DOMAIN-SUFFIX,javhd.today
-  - DOMAIN-SUFFIX,hdjav.su
-  - DOMAIN-SUFFIX,xxxorientalvideos.com
-  - DOMAIN-SUFFIX,topchinesevideo.com
   - DOMAIN-SUFFIX,pornjapanesesex.com
-  - DOMAIN-SUFFIX,xasiantits.com
-  - DOMAIN-SUFFIX,xxxjapangf.com
-  - DOMAIN-SUFFIX,hotasianp.com
+  - DOMAIN-SUFFIX,topchinesevideo.com
   - DOMAIN-SUFFIX,vjav.com
-  - DOMAIN-SUFFIX,asianfplace.com
-  - DOMAIN-SUFFIX,asianblowjob.top
-  - DOMAIN-KEYWORD,japonx
-  - DOMAIN-KEYWORD,japronx
-  - IP-CIDR,185.207.236.38/24
+  - DOMAIN-SUFFIX,xasiantits.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xhday.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,xnxx.com.sg
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xxxjapangf.com
+  - DOMAIN-SUFFIX,xxxorientalvideos.com
   - IP-CIDR,185.207.236.164/24
-
-  - wait for the next update
+  - IP-CIDR,185.207.236.38/24
+  
+  # wait for the next update
