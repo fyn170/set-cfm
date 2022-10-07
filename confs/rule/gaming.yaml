@@ -1469,6 +1469,28 @@ payload:
   # Rthd
   - DOMAIN-SUFFIX,tm-games.ru
   - DOMAIN-SUFFIX,games.ru
+  # StumbleGuys
+  - DOMAIN-SUFFIX,com.kitkagames.fallbuddies
+  - DOMAIN-SUFFIX,config.uca.cloud.unity3d.com
+  - DOMAIN-SUFFIX,kitkabackend.eastus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,cdp.cloud.unity3d.com
+  - DOMAIN-SUFFIX,api.gameanalytics.com
+  - DOMAIN-SUFFIX,backbone-client-api.azurewebsites.net
+  - DOMAIN-SUFFIX,config.unityads.unity3d.com
+  - DOMAIN-SUFFIX,ms.applovin.com
+  - DOMAIN-SUFFIX,rt.applovin.com
+  - DOMAIN-SUFFIX,publisher-config.unityads.unity3d.com
+  - DOMAIN-SUFFIX,auction.unityads.unity3d.com
+  - DOMAIN-SUFFIX,events.mz.unity3d.com
+  - DOMAIN-SUFFIX,auiopt.unityads.unity3d.com
+  - DOMAIN-SUFFIX,a4.applovin.com
+  - DOMAIN-SUFFIX,cdn-creatives-akamaistls-prd.acquire.unity3dusercontent.com
+  - DOMAIN-SUFFIX,cdn-store-icons-akamai-prd.unityads.unity3d.com
+  - DOMAIN-SUFFIX,perf-events.cloud.unity3d.com
+  - DOMAIN-SUFFIX,backbone-client-api.azurewebsites.net
+  - DOMAIN-SUFFIX,cdn.discordapp.com
+  - DOMAIN-SUFFIX,ns.exitgames.com
+  - DOMAIN-SUFFIX,unityads.unity3d.com
   # ALL Port GAME
   # MLBB PORT
   - DST-PORT,5000
