@@ -7,8 +7,7 @@ proxies:
   - {name: ID-Btn, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: d59fe710-448b-11ed-bc67-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
   - {name: 🔰 sgt1, server: 104.17.3.81, port: 443, type: trojan, password: ac2f465e-f5b8-4dbe-8bd4-6dcb526df700, skip-cert-verify: true, sni: sgt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt1.sshocean.net}}, udp: true}
   - {name: 🔰 sgt2, server: 104.17.3.81, port: 443, type: trojan, password: 1dabb529-48e8-42a9-a31a-393d3475debb, skip-cert-verify: true, sni: sgt2.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt2.sshocean.net}}, udp: true}
-  - {name: 🟥 MRP, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: d9ce1c25-913d-434e-9528-04ab3c92cf2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-ctb.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg1-ctb.v2rayserv.com}}, udp: true}
-  - {name: 🟩 MSV, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: f37fd606-4918-4057-bee2-0badcb9fc369, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2-ctb.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg2-ctb.v2rayserv.com}}, udp: true}
-  - {name: 🟪 PAP, server: www.xnxx.id.hidehost.me, port: 443, type: vmess, uuid: 3ea9ef99-7d9e-47e8-94f6-add725b7fcb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg5.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg5.v2rayserv.com}}, udp: true}
+ 
+ 
 
 # Server update
