@@ -7,7 +7,7 @@ proxies:
   - {name: ID-Btn, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: d59fe710-448b-11ed-bc67-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
   - {name: 🔰 sgt1, server: 104.17.3.81, port: 443, type: trojan, password: ac2f465e-f5b8-4dbe-8bd4-6dcb526df700, skip-cert-verify: true, sni: sgt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt1.sshocean.net}}, udp: true}
   - {name: 🔰 sgt2, server: 104.17.3.81, port: 443, type: trojan, password: 1dabb529-48e8-42a9-a31a-393d3475debb, skip-cert-verify: true, sni: sgt2.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt2.sshocean.net}}, udp: true}
-  - {name: 🟡 Premium, server: 104.17.3.81, port: 443, type: trojan, password: 4e55786f-1844-4a20-9101-16b2a76fe1d7, skip-cert-verify: true, sni: 2pbi.autocf.online, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: 2pbi.autocf.online}}, udp: true}
+
  
 
 # Server update
