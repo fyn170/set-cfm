@@ -7,7 +7,10 @@ proxies:
   - {name: ID-Btn, server: www.xnxx.id.hidehost.me, port: 443, type: trojan, password: d59fe710-448b-11ed-bc67-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
   - {name: 🔰 sgt1, server: 104.17.3.81, port: 443, type: trojan, password: ac2f465e-f5b8-4dbe-8bd4-6dcb526df700, skip-cert-verify: true, sni: sgt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt1.sshocean.net}}, udp: true}
   - {name: 🔰 sgt2, server: 104.17.3.81, port: 443, type: trojan, password: 1dabb529-48e8-42a9-a31a-393d3475debb, skip-cert-verify: true, sni: sgt2.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt2.sshocean.net}}, udp: true}
-
+  - {name: 🇮🇩 ID-1, server: 104.17.3.81, port: 443, type: vmess, uuid: 151aff66-e2a9-4c8d-ad68-31d16593ac62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id6.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: id6.v2rayserv.com}}, udp: true}
+  - {name: 🇮🇩 ID-2, server: 104.17.3.81, port: 443, type: vmess, uuid: dacddc6d-58ed-4497-aeeb-212ed5adf123, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id5.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: id5.v2rayserv.com}}, udp: true}
+  - {name: 🇮🇩 ID-3, server: 104.17.3.81, port: 443, type: vmess, uuid: 15882d1b-7447-4b19-aa5e-62ebd5d67c9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id4.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: id4.v2rayserv.com}}, udp: true}
+  
  
 
 # Server update
