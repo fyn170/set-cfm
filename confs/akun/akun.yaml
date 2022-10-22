@@ -4,7 +4,8 @@ proxies:
   - {name: 🚀 SG 2, server: 104.16.66.85, port: 443, type: vmess, uuid: d2909e15-93de-49b5-97e1-ffbc389ec7f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray3.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.udpgw.com}}, udp: true}
   - {name: 🇸🇬 SG OVH 1, server: 104.17.3.81, port: 443, type: trojan, password: 80791340-51f7-11ed-a0d1-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
   - {name: 🇸🇬 SG OVH 2, server: 104.16.66.85, port: 443, type: trojan, password: 80791340-51f7-11ed-a0d1-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-  
+  - {name: ⚠️ SG-Free 1, server: 104.17.3.81, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
+  - {name: ⚠️ SG-Free 2, server: 104.16.66.85, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
   
  
 
