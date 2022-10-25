@@ -6,7 +6,9 @@ proxies:
   - {name: 🇸🇬 SG OVH 2, server: 104.16.66.85, port: 443, type: trojan, password: 80791340-51f7-11ed-a0d1-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
   - {name: ⚠️ SG-Free 1, server: 104.17.3.81, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
   - {name: ⚠️ SG-Free 2, server: 104.16.66.85, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
-  
+  - {name: New_RG 🇸🇬1, server: 104.18.2.2, port: 443, type: vmess, uuid: 290cece3-82f8-4fab-8f08-e120a6a89fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.ruangguru.com, network: ws, ws-opts: {path: wss://meet.ruangguru.com/howdy, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: New_RG 🇸🇬2, server: 104.18.3.2, port: 443, type: vmess, uuid: 290cece3-82f8-4fab-8f08-e120a6a89fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ruangguru.com, network: ws, ws-opts: {path: wss://ruangguru.com/howdy, headers: {Host: v2ray3.udpgw.com}}, udp: true}
  
+
 
 # Server update
