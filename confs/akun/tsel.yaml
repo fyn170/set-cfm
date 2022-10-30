@@ -1,6 +1,19 @@
 proxies:
+  - {name: 🇸🇬 SG OVH 1, server: 104.17.3.81, port: 443, type: trojan, password: 80791340-51f7-11ed-a0d1-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+  - {name: 🇸🇬 SG OVH 2, server: 104.16.66.85, port: 443, type: trojan, password: 80791340-51f7-11ed-a0d1-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+  - {name: ⚠️ SG-Free 1, server: 104.17.3.81, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
+  - {name: ⚠️ SG-Free 2, server: 104.16.66.85, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
+  - {name: New_RG 🇸🇬1, server: 104.18.2.2, port: 443, type: vmess, uuid: 290cece3-82f8-4fab-8f08-e120a6a89fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.ruangguru.com, network: ws, ws-opts: {path: wss://meet.ruangguru.com/howdy, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: New_RG 🇸🇬2, server: 104.18.3.2, port: 443, type: vmess, uuid: 290cece3-82f8-4fab-8f08-e120a6a89fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ruangguru.com, network: ws, ws-opts: {path: wss://ruangguru.com/howdy, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: 🇸🇬SG-LB1, server: 104.17.3.81, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/Hshsu/635822017fcda/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: 🇸🇬SG-LB2, server: 104.16.66.85, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/Hshsu/635822017fcda/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: 📶SG-U1, server: 104.17.3.81, port: 80, type: vmess, uuid: 758a4d54-72bb-4d57-8222-0cb28cc005ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: 📶SG-U2, server: 104.17.3.81, port: 80, type: vmess, uuid: 758a4d54-72bb-4d57-8222-0cb28cc005ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: SG-free1, server: 104.17.3.81, port: 443, type: trojan, password: face76d0-5784-11ed-b457-1239d0255272, skip-cert-verify: true, sni: sg1-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg1-trojan.bonds.id}}, udp: true}
+  - {name: SG-free2, server: 104.16.66.85, port: 443, type: trojan, password: 1d73b3b0-5785-11ed-9e8b-1239d0255272, skip-cert-verify: true, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}, udp: true}
+  
+  
+  
+  
 
-
-
-
-# Comming Soon
+# Server update
