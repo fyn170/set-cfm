@@ -1,4 +1,7 @@
 proxies:
+  - {name: SG-HE, server: 104.18.21.94, port: 443, type: trojan, password: 21dbff90-5848-11ed-add3-1239d0255272, skip-cert-verify: true, sni: sg1-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg1-trojan.bonds.id}}, udp: true}
+  - {name: SG-Udp, server: 104.18.21.94, port: 443, type: vmess, uuid: 1da168c1-1d03-4473-aab1-a0f25f90c8bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: SG-HE2, server: 104.18.21.94, port: 443, type: trojan, password: b4276cd0-5848-11ed-a11a-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
 
 
 
