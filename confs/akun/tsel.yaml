@@ -9,6 +9,7 @@ proxies:
   - {name: ID-HZ2, server: 104.16.66.85, port: 443, type: trojan, password: 4cb544a0-584f-11ed-a86f-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
   - {name: SG-HE2, server: 104.17.3.81, port: 443, type: trojan, password: a25df160-5a66-11ed-8f0e-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
   - {name: SG-HE3, server: 104.16.66.85, port: 443, type: trojan, password: bab26630-5a66-11ed-91f7-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
-  
+  - {name: SG-PDIP, server: 104.17.3.81, port: 443, type: vmess, uuid: d51a6e1a-6183-48b5-a492-23b6800df2b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: SG-UDP, server: 104.16.66.85, port: 443, type: vmess, uuid: d51a6e1a-6183-48b5-a492-23b6800df2b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
 
 # Server update
