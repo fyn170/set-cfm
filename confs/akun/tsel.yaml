@@ -1,8 +1,4 @@
 proxies:
-  - {name: ⚠️ SG-Free 1, server: 104.17.3.81, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
-  - {name: ⚠️ SG-Free 2, server: 104.16.66.85, port: 443, type: vmess, uuid: aa72613d-188c-4d7b-be46-6011d75a5f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.v2-ray.com, network: ws, ws-opts: {path: /fastssh/nesu/6353cc6f04e5f/, headers: {Host: sg1.v2-ray.com}}, udp: true}
-  - {name: 📶SG-U1, server: 104.17.3.81, port: 80, type: vmess, uuid: 758a4d54-72bb-4d57-8222-0cb28cc005ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 📶SG-U2, server: 104.17.3.81, port: 80, type: vmess, uuid: 758a4d54-72bb-4d57-8222-0cb28cc005ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
   - {name: SG-free1, server: 104.17.3.81, port: 443, type: trojan, password: face76d0-5784-11ed-b457-1239d0255272, skip-cert-verify: true, sni: sg1-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg1-trojan.bonds.id}}, udp: true}
   - {name: SG-free2, server: 104.16.66.85, port: 443, type: trojan, password: 1d73b3b0-5785-11ed-9e8b-1239d0255272, skip-cert-verify: true, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}, udp: true}
   - {name: SG-Udp1, server: 104.17.3.81, port: 443, type: vmess, uuid: 1202a4cc-8697-478f-9d4c-77f02d433732, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
@@ -11,7 +7,8 @@ proxies:
   - {name: ID-Ikd2, server: 104.16.66.85, port: 443, type: trojan, password: 01f88380-584f-11ed-b377-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
   - {name: ID-HZ1, server: 104.17.3.81, port: 443, type: trojan, password: 4cb544a0-584f-11ed-a86f-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
   - {name: ID-HZ2, server: 104.16.66.85, port: 443, type: trojan, password: 4cb544a0-584f-11ed-a86f-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
-  
+  - {name: SG-HE2, server: 104.17.3.81, port: 443, type: trojan, password: a25df160-5a66-11ed-8f0e-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
+  - {name: SG-HE3, server: 104.16.66.85, port: 443, type: trojan, password: bab26630-5a66-11ed-91f7-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
   
 
 # Server update
