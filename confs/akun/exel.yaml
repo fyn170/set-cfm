@@ -1,5 +1,6 @@
 proxies:
-
+  - {name: ID-⚜️, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 9e862b40-5b37-11ed-a783-1239d0255272, skip-cert-verify: true, sni: kh.google.com, udp: true}
+  - {name: SG-♻️, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 076aded6-cadd-44e8-9ba4-dc098db1db91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
 
 
 
