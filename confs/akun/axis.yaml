@@ -1,14 +1,8 @@
 proxies:
-  - {name: SG-HE, server: 104.18.21.94, port: 443, type: trojan, password: 21dbff90-5848-11ed-add3-1239d0255272, skip-cert-verify: true, sni: sg1-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg1-trojan.bonds.id}}, udp: true}
-  - {name: SG-Udp, server: 104.18.21.94, port: 443, type: vmess, uuid: 1da168c1-1d03-4473-aab1-a0f25f90c8bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-  - {name: SG-HE2, server: 104.18.21.94, port: 443, type: trojan, password: b4276cd0-5848-11ed-a11a-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
-  - {name: ID-Btn, server: 104.18.20.94, port: 443, type: trojan, password: b0b57d30-5ade-11ed-97fb-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
-  - {name: ID-Hz, server: 104.18.20.94, port: 443, type: trojan, password: f716bcf0-5ade-11ed-9d30-1239d0255272, skip-cert-verify: true, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}, udp: true}
-  - {name: SG2, server: 172.67.5.14, port: 443, type: trojan, password: bdec8eb0-5c43-11ed-9004-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
-  - {name: SG3, server: 172.67.5.14, port: 443, type: trojan, password: b81e33c0-5c43-11ed-b735-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
-  - {name: SG6, server: 172.67.5.14, port: 443, type: trojan, password: d14a6ba0-5c43-11ed-a715-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
-
-
+  - {name: SG3, server: 104.18.20.94, port: 443, type: trojan, password: b81e33c0-5c43-11ed-b735-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
+  - {name: SG6, server: 104.22.5.240, port: 443, type: trojan, password: d14a6ba0-5c43-11ed-a715-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
+  - {name: Game, server: 104.18.20.94, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: Vidio, server: 104.22.5.240, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
 
 
 # Comming Soon
