@@ -1,8 +1,7 @@
 proxies:
-  - {name: SG3, server: 104.18.20.94, port: 443, type: trojan, password: b81e33c0-5c43-11ed-b735-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
-  - {name: SG6, server: 104.22.5.240, port: 443, type: trojan, password: d14a6ba0-5c43-11ed-a715-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
   - {name: Game, server: 104.18.20.94, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
   - {name: Vidio, server: 104.22.5.240, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-
+  - {name: SG-G, server: 104.18.20.94, port: 443, type: vmess, uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
+  - {name: SG-V, server: 104.22.5.240, port: 443, type: vmess, uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
 
 # Comming Soon
