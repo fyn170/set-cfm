@@ -1,6 +1,8 @@
 proxies:
-  - {name: ID-⚜️, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 9e862b40-5b37-11ed-a783-1239d0255272, skip-cert-verify: true, sni: kh.google.com, udp: false}
-  - {name: SG-♻️, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 076aded6-cadd-44e8-9ba4-dc098db1db91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray1.udpgw.com}}, udp: false}
+  - {name: SG-📡, server: trojan2.udpgw.com, port: 443, type: trojan, password: 43c13640-6181-11ed-8a3a-1239d0255272, skip-cert-verify: true, sni: cusqus.com, udp: true}
+  - {name: SG--💉, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 84fcea53-9c55-4b34-87ac-ef9d0cedd8c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: kh.google.com}}, udp: true}
+  - {name: SG-🔭, server: trojan2.udpgw.com, port: 443, type: trojan, password: 43c13640-6181-11ed-8a3a-1239d0255272, skip-cert-verify: true, sni: meet.google.com, udp: true} 
+  
 
 
 
