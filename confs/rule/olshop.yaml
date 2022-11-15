@@ -1,4 +1,8 @@
-Payload:
+# OpenClash Rule
+# [Fynn]
+# (https://github.com/fyn170/conf-cfm)
+
+payload:
   # Bukalapak
   - DOMAIN-KEYWORD,bukalapak
   - DOMAIN-SUFFIX,bukalapak.com
@@ -12,3 +16,4 @@ Payload:
   - DOMAIN-KEYWORD,tokopedia
   - DOMAIN-SUFFIX,tokopedia.com
   - DOMAIN-SUFFIX,tokopedia.net
+
