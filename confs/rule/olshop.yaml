@@ -1,0 +1,14 @@
+Payload:
+  # Bukalapak
+  - DOMAIN-KEYWORD,bukalapak
+  - DOMAIN-SUFFIX,bukalapak.com
+  # Shopee
+  - DOMAIN-KEYWORD,shopee
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopeemobile.com
+  - DOMAIN-SUFFIX,shopee.com
+  - DOMAIN-SUFFIX,shopee.sg
+  # Tokopedia
+  - DOMAIN-KEYWORD,tokopedia
+  - DOMAIN-SUFFIX,tokopedia.com
+  - DOMAIN-SUFFIX,tokopedia.net
