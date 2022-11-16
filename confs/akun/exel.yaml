@@ -2,8 +2,8 @@ proxies:
   - {name: SG-📡, server: trojan2.udpgw.com, port: 443, type: trojan, password: 43c13640-6181-11ed-8a3a-1239d0255272, skip-cert-verify: true, sni: cusqus.com, udp: true}
   - {name: SG--💉, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 84fcea53-9c55-4b34-87ac-ef9d0cedd8c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: kh.google.com}}, udp: true}
   - {name: SG-🔭, server: trojan2.udpgw.com, port: 443, type: trojan, password: 43c13640-6181-11ed-8a3a-1239d0255272, skip-cert-verify: true, sni: meet.google.com, udp: true} 
-  
-
+  - {name: ID-✅, server: idt1.sshocean.net, port: 443, type: trojan, password: 90199e7d-a99f-4343-9b48-c44789aa3ef9, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
+  - {name: ID-☑️, server: idt2.sshocean.net, port: 443, type: trojan, password: b8afcd37-2531-424c-91c6-e2d9e268b435, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
 
 
 # Comming Soon
