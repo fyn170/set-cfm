@@ -1,9 +1,9 @@
 proxies:
-  - {name: SG-🔐, server: 104.17.3.81, port: 443, type: vmess, uuid: 1f497ebe-7fd9-4372-a97c-45de0d3fddfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: SG-🔑, server: 104.16.66.85, port: 443, type: vmess, uuid: 1f497ebe-7fd9-4372-a97c-45de0d3fddfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
   - {name: SG-1⚜️, server: 104.17.3.81, port: 443, type: trojan, password: 52692f30-6249-11ed-8197-1239d0255272, skip-cert-verify: true, sni: sg1-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg1-trojan.bonds.id}}, udp: true}
   - {name: SG-2♻️, server: 104.16.66.85, port: 443, type: trojan, password: 6991a7d0-6249-11ed-8cdb-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
   - {name: ID-IKD1, server: 104.17.3.81, port: 443, type: trojan, password: 10981b20-64e6-11ed-9329-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
   - {name: ID-IKD2, server: 104.16.66.85, port: 443, type: trojan, password: 10981b20-64e6-11ed-9329-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+  - {name: ID-〰️, server: 104.17.3.81, port: 443, type: trojan, password: 47cba90e-16af-4897-9db4-9246b4fe8aa3, skip-cert-verify: true, sni: idt2.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
+  - {name: ID-〽️, server: 104.16.66.85, port: 443, type: trojan, password: 47cba90e-16af-4897-9db4-9246b4fe8aa3, skip-cert-verify: true, sni: idt2.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
 
 # Server update
