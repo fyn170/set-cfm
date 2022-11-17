@@ -1,0 +1,152 @@
+mode: rule
+allow-lan: true
+unified-delay: false
+bind-address: "*"
+log-level: silent
+ipv6: false
+geodata-mode: true
+external-controller: 0.0.0.0:9090
+external-ui: dashboard/dist
+tcp-concurrent: false
+interface-name: ""
+enable-process: false
+geodata-loader: memconservative
+inbound-tfo: false
+secret: ""
+profile:
+  store-selected: true
+  store-fake-ip: false
+  geox-url: {mmdb: https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb, geoip: https://github.com/v2fly/geoip/releases/latest/download/geoip-only-cn-private.dat, geosite: https://github.com/taamarin/v2ray-rules-dat/raw/release/geosite.dat}
+experimental: {sniff-tls-sni: true, fingerprint: ""}
+tun:
+  enable: false
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-route: false
+  auto-detect-interface: false
+sniffer:
+  enable: false
+  sniffing: [tls, http]
+  force-domain: [+]
+  skip-domain: [+.google.com]
+  port-whitelist: [443, 80]
+dns:
+  enable: true
+  device: Meta
+  ipv6: false
+  prefer-h3: false
+  default-nameserver: [1.1.1.1, 9.9.9.9]
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["*.local", "*.localhost", dns.*, dns.*.*, "*.twilio.com", "*.*.twilio.com"]
+  nameserver: [8.8.8.8, 94.140.14.14, 149.112.112.112]
+  fallback: []
+  fallback-filter:
+    geoip: false
+    geoip-code: ID
+    geosite: []
+    ipcidr: []
+    domain: []
+tproxy-port: 9898
+proxies:
+proxy-providers:
+  Server:
+    type: file
+    behavior: classical
+    path: "./confs/akun/akun.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+proxy-groups:
+- name: 18+
+  type: select
+  proxies:
+  - REJECT
+  - Server
+- name: Ads
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: Chat
+  type: select
+  strategy: consistent-hashing
+  disable-udp: true
+  proxies:
+  - DIRECT
+  - Server
+- name: Server
+  type: load-balance
+  strategy: consistent-hashing
+  disable-udp: true
+  use:
+  - Server
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+rules:
+  - RULE-SET,18+,18+
+  - RULE-SET,Ads,Ads
+  - RULE-SET,Gaming,Server
+  - RULE-SET,Reject,REJECT
+  - RULE-SET,Sosmed,Server
+  - RULE-SET,Stream,Server
+  - MATCH,GLOBAL
+rule-providers:
+  18+:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/saru.yaml"
+    path: "./confs/rule/saru.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+  Ads:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/ads.yaml"
+    path: "./confs/rule/ads.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+  Gaming:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/gaming.yaml"
+    path: "./confs/rule/gaming.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+  Reject:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/reject.yaml"
+    path: "./confs/rule/reject.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+  Sosmed:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/sosmed.yaml"
+    path: "./confs/rule/sosmed.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+  Stream:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fyn170/conf-cfm/main/confs/rule/stream.yaml"
+    path: "./confs/rule/stream.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
