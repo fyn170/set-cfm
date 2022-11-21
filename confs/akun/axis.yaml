@@ -1,7 +1,6 @@
 proxies:
-  - {name: Game, server: 104.18.20.94, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: Vidio, server: 104.22.5.240, port: 443, type: vmess, uuid: fdefd58a-c10e-4853-8b7a-b94995f2a250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
   - {name: SG-G, server: 104.18.20.94, port: 443, type: vmess, uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
   - {name: SG-V, server: 104.22.5.240, port: 443, type: vmess, uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /fastssh, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-
+  - {name: ID-🎮, server: 104.18.21.94, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/bduur/637b5e7055010/, headers: {Host: id-lb.vhax.net}}, udp: true}
+  - {name: ID-📽, server: 172.67.5.14, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/bduur/637b5e7055010/, headers: {Host: id-lb.vhax.net}}, udp: true}
 # Comming Soon
