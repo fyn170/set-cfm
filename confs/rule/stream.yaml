@@ -339,5 +339,12 @@ payload:
   - DOMAIN-SUFFIX,secureswiftcontent.com
   - DOMAIN-SUFFIX,vidiocdn.com
   - DOMAIN-KEYWORD,vidio
+  # Mncnow
+  - DOMAIN-KEYWORD,mnc
+  - DOMAIN-KEYWORD,mncnow
+  - DOMAIN-SUFFIX,mncnow.id
+  - DOMAIN-SUFFIX,mncnow.com
+  
+  
   
   # wait for the next update
