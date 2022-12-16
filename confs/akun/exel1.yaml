@@ -1,6 +1,5 @@
 proxies:
-  - {name: Bug Mati 1, server: id1.v2vless.xyz, port: 443, type: vless, uuid: c6a77522-0329-4fef-b077-2954291bab2c, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /vless, headers: {Host: meet.google.com}}, udp: true}
-  - {name: Bug Dead 2, server: id2.v2vless.xyz, port: 443, type: vless, uuid: 4724fbb0-61d7-4ada-818b-190a793247b0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /vless, headers: {Host: id2.v2vless.xyz}}, udp: true}
-  - {name: Bug Off 3, server: id3.v2vless.xyz, port: 443, type: vless, uuid: 3bac5dcc-ccc5-4fd6-b48a-65a68b5be5b2, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /vless, headers: {Host: id3.v2vless.xyz}}, udp: true}
+  - {name: ID-1 📺, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /sshkit/mnbyi/639c145e6ad9e/, headers: {Host: id-lb.vhax.net}}, udp: true}
+  - {name: ID-2 🎬, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /sshkit/mnbyi/639c145e6ad9e/, headers: {Host: id-lb.vhax.net}}, udp: true}
 
 # Comming Soon
