@@ -1,4 +1,6 @@
 proxies:
-   - {name: ID-1, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/hdkuru/6399f4ce50aa8/, headers: {Host: id-lb.vhax.net}}, udp: true}
-   
+   - {name: ID-🤙, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/hdkuru/6399f4ce50aa8/, headers: {Host: id-lb.vhax.net}}, udp: true}
+   - {name: ID-💨, server: 104.18.20.94, port: 443, type: vless, uuid: 6f595519-765d-4833-b4d5-dc912c60f85e, cipher: auto, tls: true, skip-cert-verify: true, servername: id3-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id3-ws.xvless.xyz}}, udp: true}
+  
+  
 # Comming Soon
