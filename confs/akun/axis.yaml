@@ -1,6 +1,6 @@
 proxies:
-   - {name: ID-🤙, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/hdkuru/6399f4ce50aa8/, headers: {Host: id-lb.vhax.net}}, udp: true}
-   - {name: ID-💨, server: 104.18.20.94, port: 443, type: vless, uuid: 6f595519-765d-4833-b4d5-dc912c60f85e, cipher: auto, tls: true, skip-cert-verify: true, servername: id3-ws.xvless.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: id3-ws.xvless.xyz}}, udp: true}
+  - {name: SG-🪓, server: 104.18.20.94, port: 443, type: trojan, password: 0d3611d1-558b-4290-981a-330c5f1161f8, skip-cert-verify: true, sni: sgt4.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt4.sshocean.net}}, udp: true}
+  - {name: ID-🔑, server: 104.18.20.94, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/bzjey/63a4a7f2dbf5d/, headers: {Host: id-lb.vhax.net}}, udp: true}
   
   
 # Comming Soon
