@@ -1,5 +1,7 @@
 proxies:
   - {name: ID-1 📺, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /sshkit/mnbyi/639c145e6ad9e/, headers: {Host: id-lb.vhax.net}}, udp: true}
   - {name: ID-2 🎬, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /sshkit/mnbyi/639c145e6ad9e/, headers: {Host: id-lb.vhax.net}}, udp: true}
-
+  - {name: ID 🚸, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /sshkit/nfbro/63abbf31751d1/, headers: {Host: id-lb.vhax.net}}, udp: true}
+  - {name: ID 🚯, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: ws, ws-opts: {path: /sshkit/nfbro/63abbf31751d1/, headers: {Host: id-lb.vhax.net}}, udp: true}
+  
 # Comming Soon
