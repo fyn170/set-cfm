@@ -1,9 +1,8 @@
 proxies:
-  - {name: SG-💦, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.googoe.com, network: ws, ws-opts: {path: /sshkit/lkjro/639c2244e6b53/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: SG-💥, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /sshkit/lkjro/639c2244e6b53/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: SG ♿, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: ws, ws-opts: {path: /sshkit/nbrkr/63abbed8aac1e/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: Sg 🎆, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /sshkit/majsj/63b52faf79677/, headers: {Host: sg-lb.vhax.net}}, udp: true}
-  - {name: Sg 🎉, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /sshkit/majsj/63b52faf79677/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: SG 🎏, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
+  - {name: SG 🎃, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
+  - {name: SG 🎗, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
+  - {name: SG 🎎, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
   
   
 # (Pre-release)
