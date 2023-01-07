@@ -3,6 +3,9 @@ proxies:
   - {name: SG 🎃, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
   - {name: SG 🎗, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
   - {name: SG 🎎, server: sg1-temp.v2-ray.com, port: 443, type: vmess, uuid: 1ad35730-8de0-11ed-b336-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1-temp.v2-ray.com}}, udp: true}
-  
+  - {name: SG♿, server: sg1.v2-ray.com, port: 443, type: vmess, uuid: fbca44b0-8e92-11ed-b631-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1.v2-ray.com}}, udp: true}
+  - {name: SG🍆, server: sg1.v2-ray.com, port: 443, type: vmess, uuid: fbca44b0-8e92-11ed-b631-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg1.v2-ray.com}}, udp: true}
+  - {name: SG🍅, server: sg2-ws.xvless.xyz, port: 443, type: vless, uuid: 56f85f87-22a9-4a77-afac-942701c5fca2, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /websocket, headers: {Host: sg2-ws.xvless.xyz}}, udp: true}
+  - {name: SG🥑, server: sg2-ctb-ws.xvless.xyz, port: 443, type: vless, uuid: c6d83525-0fac-4b5f-9d59-7ca7f40b26ae, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /websocket, headers: {Host: sg2-ctb-ws.xvless.xyz}}, udp: true}
   
 # (Pre-release)
