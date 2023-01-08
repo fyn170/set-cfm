@@ -1,7 +1,8 @@
 proxies:
-  - {name: SG-🪓, server: 104.18.20.94, port: 443, type: trojan, password: 0d3611d1-558b-4290-981a-330c5f1161f8, skip-cert-verify: true, sni: sgt4.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: sgt4.sshocean.net}}, udp: true}
-  - {name: ID-🔑, server: 104.18.20.94, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/bzjey/63a4a7f2dbf5d/, headers: {Host: id-lb.vhax.net}}, udp: true}
-  - {name: ID ♻️, server: idtj-herza.bonds.id, port: 443, type: trojan, password: 59c075b0-868e-11ed-9c13-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
-  - {name: SG ☢️, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 35a76620-868e-11ed-b193-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
+  - {name: SG🛒, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 00400660-8f18-11ed-8b97-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
+  - {name: SG🛏, server: 104.18.20.94, port: 443, type: trojan, password: 00400660-8f18-11ed-8b97-1239d0255272, skip-cert-verify: true, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}, udp: true}
+  - {name: ID🚽, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 17579210-8f18-11ed-a49d-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
+  - {name: ID🚿, server: 104.18.20.94, port: 443, type: trojan, password: 17579210-8f18-11ed-a49d-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+  
   
 # Comming Soon
