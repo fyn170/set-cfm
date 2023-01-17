@@ -1,11 +1,8 @@
 proxies:
-  - {name: ID🏑, server: id-ikd.vmess.sbs, port: 443, type: vmess, uuid: 6e5a52c0-91aa-11ed-b537-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.vmess.sbs}}, udp: true}
-  - {name: ID🎳, server: id-ikd.vmess.sbs, port: 443, type: vmess, uuid: 6e5a52c0-91aa-11ed-b537-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.vmess.sbs}}, udp: true}
-  - {name: ID🥏, server: id-herza.vmess.sbs, port: 443, type: vmess, uuid: 4346ea80-91ab-11ed-b834-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-herza.vmess.sbs}}, udp: true}
-  - {name: ID🏉, server: id-herza.vmess.sbs, port: 443, type: vmess, uuid: 4346ea80-91ab-11ed-b834-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-herza.vmess.sbs}}, udp: true}
-  - {name: ID✴️, server: id-herza.vmess.sbs, port: 443, type: vmess, uuid: c7b1daa0-94f6-11ed-b939-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-herza.vmess.sbs}}, udp: true}
-  - {name: ID✳️, server: id-herza.vmess.sbs, port: 443, type: vmess, uuid: c7b1daa0-94f6-11ed-b939-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-herza.vmess.sbs}}, udp: true}
-  
+  - {name: ID🐳, server: id-2.0rd.net, port: 443, type: vmess, uuid: 8f116880-9689-11ed-b735-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-2.0rd.net}}, udp: true}
+  - {name: ID🐌, server: id-1.0rd.net, port: 443, type: vmess, uuid: b89f9340-9689-11ed-b337-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🐠, server: id-2.0rd.net, port: 443, type: vmess, uuid: 8f116880-9689-11ed-b735-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-2.0rd.net}}, udp: true}
+
   
   
 # Comming Soon
