@@ -1,9 +1,7 @@
 proxies:
-  - {name: SG🐃, server: sg-he1.vmess.sbs, port: 443, type: vmess, uuid: e6c9fcf0-94f6-11ed-b435-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-he1.vmess.sbs}}, udp: true}
-  - {name: SG🐂, server: sg-he1.vmess.sbs, port: 443, type: vmess, uuid: e6c9fcf0-94f6-11ed-b435-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-he1.vmess.sbs}}, udp: true}
-  - {name: SG🐑, server: sg-he1.vmess.sbs, port: 443, type: vmess, uuid: 68397a90-94f8-11ed-b439-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-he1.vmess.sbs}}, udp: true}
-  - {name: SG🦏, server: sg-he1.vmess.sbs, port: 443, type: vmess, uuid: 68397a90-94f8-11ed-b439-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-he1.vmess.sbs}}, udp: true}
-  - {name: SG🦛, server: sg-ovh1.vmess.sbs, port: 443, type: vmess, uuid: 969ec860-94f8-11ed-b434-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-ovh1.vmess.sbs}}, udp: true}
-  - {name: SG🐪, server: sg-ovh1.vmess.sbs, port: 443, type: vmess, uuid: 969ec860-94f8-11ed-b434-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-ovh1.vmess.sbs}}, udp: true}
+  - {name: SG🐛, server: sg-4.0rd.net, port: 443, type: vmess, uuid: dd4dca80-9689-11ed-b836-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maps.gstatic.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: SG🕸, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 071a7be0-968a-11ed-b435-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-2.0rd.net}}, udp: true}
+  - {name: SG🦠, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 071a7be0-968a-11ed-b435-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-2.0rd.net}}, udp: true}
+  
   
 # (Pre-release)
