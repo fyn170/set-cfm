@@ -3,6 +3,8 @@
 # (https://github.com/fyn170/conf-cfm)
 
 payload:
+  # KartRider
+  - DOMAIN-SUFFIX,mkartdrift.dn.nexoncdn.co.kr
   # Mobilelegends
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,m.mobilelegends.com
