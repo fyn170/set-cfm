@@ -4,5 +4,6 @@ proxies:
   - {name: ID🚽, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 17579210-8f18-11ed-a49d-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
   - {name: AxisGame🕹, server: id-herza.vmess.sbs, port: 443, type: vmess, uuid: 79049e40-94fa-11ed-b735-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.pubgmobile.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-herza.vmess.sbs}}, udp: true}
   - {name: AxisGame🎮, server: id-ikd.vmess.sbs, port: 443, type: vmess, uuid: 930b97a0-94fa-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.pubgmobile.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.vmess.sbs}}, udp: true}
+  - {name: Edu, server: 104.17.71.206, port: 443, type: vmess, uuid: 44945b80-97ef-11ed-b533-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-1.0rd.net}}, udp: true}
   
 # Comming Soon
