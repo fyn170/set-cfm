@@ -1,7 +1,8 @@
 proxies:
-  - {name: ID🐳, server: id-2.0rd.net, port: 443, type: vmess, uuid: 8f116880-9689-11ed-b735-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-2.0rd.net}}, udp: true}
-  - {name: ID🐌, server: id-1.0rd.net, port: 443, type: vmess, uuid: b89f9340-9689-11ed-b337-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🐠, server: id-2.0rd.net, port: 443, type: vmess, uuid: 8f116880-9689-11ed-b735-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-2.0rd.net}}, udp: true}
+  - {name: ID🌦, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🌧, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🌩, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maps.gstatic.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🌨, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
 
   
   
