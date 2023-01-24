@@ -6,6 +6,11 @@ proxies:
   - {name: SG🍅, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 25b7a730-980b-11ed-b739-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-2.0rd.net}}, udp: true}
   - {name: SG🍑, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 25b7a730-980b-11ed-b739-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: io.ruangguru.com, network: ws, ws-opts: {path: /fastssh, headers: {Host: sg-2.0rd.net}}, udp: true}
   - {name: SG⛱️, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /sshkit/nskdiri/63cd6c1dc544f/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: SG👹, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 45eb7540-9c1b-11ed-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /9k7amdti, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: SG👺, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 45eb7540-9c1b-11ed-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maps.gstatic.com, network: ws, ws-opts: {path: /9k7amdti, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: SG😡, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 9198b8a0-9c1b-11ed-b532-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /a8r5xe4j, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: SG🤬, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 9198b8a0-9c1b-11ed-b532-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /a8r5xe4j, headers: {Host: sg-8.0rd.net}}, udp: true}
+  
   
   
 # (Pre-release)
