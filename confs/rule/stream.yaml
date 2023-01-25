@@ -388,7 +388,13 @@ payload:
   - DOMAIN-KEYWORD,mncnow
   - DOMAIN-SUFFIX,mncnow.id
   - DOMAIN-SUFFIX,mncnow.com
-  
+  # Vision+
+  - DOMMAIN-KEYWORD,vision
+  - DOMMAIN-SUFFIX,visionplus.id
+  - DOMMAIN-SUFFIX,visionplustv.id
+  - DOMMAIN-SUFFIX,visionplus.com
+  - DOMMAIN-SUFFIX,playtv.visionplus.id
+  - DOMMAIN-SUFFIX,visionplustv.com
   
   
   # wait for the next update
