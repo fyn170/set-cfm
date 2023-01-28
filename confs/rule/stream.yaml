@@ -389,12 +389,12 @@ payload:
   - DOMAIN-SUFFIX,mncnow.id
   - DOMAIN-SUFFIX,mncnow.com
   # Vision+
-  - DOMMAIN-KEYWORD,vision
-  - DOMMAIN-SUFFIX,visionplus.id
-  - DOMMAIN-SUFFIX,visionplustv.id
-  - DOMMAIN-SUFFIX,visionplus.com
-  - DOMMAIN-SUFFIX,playtv.visionplus.id
-  - DOMMAIN-SUFFIX,visionplustv.com
+  - DOMAIN-KEYWORD,vision
+  - DOMAIN-SUFFIX,visionplus.id
+  - DOMAIN-SUFFIX,visionplustv.id
+  - DOMAIN-SUFFIX,visionplus.com
+  - DOMAIN-SUFFIX,playtv.visionplus.id
+  - DOMAIN-SUFFIX,visionplustv.com
   
   
   # wait for the next update
