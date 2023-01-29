@@ -2,7 +2,8 @@ proxies:
   - {name: ID🛶, server: idtj-herza.bonds.id, port: 443, type: trojan, password: c01e9e90-9f8c-11ed-ba21-1239d0255272, skip-cert-verify: true, sni: dl.gooogle.com, udp: true}
   - {name: ID🚁, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: a3b3e030-9f8c-11ed-ab6e-1239d0255272, skip-cert-verify: true, sni: zoom.us, udp: true}
   - {name: SG🪂, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 847ddbd0-9f8c-11ed-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /j0ikz4vb, headers: {Host: meet.google.com}}, udp: true}
-  
+  - {name: SG 5, server: sg-10.0rd.net, port: 443, type: vmess, uuid: 07855fe0-9fce-11ed-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /y9imlgxa, headers: {Host: zoom.us}}, udp: true}
+  - {name: SG 6, server: sg-10.0rd.net, port: 443, type: vmess, uuid: 07855fe0-9fce-11ed-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /y9imlgxa, headers: {Host: meet.google.com}}, udp: true}  
   
   
   
