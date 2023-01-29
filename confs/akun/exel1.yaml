@@ -1,13 +1,7 @@
 proxies:
-  - {name: ID🌦, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌧, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌩, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maps.gstatic.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌨, server: id-1.0rd.net, port: 443, type: vmess, uuid: ac774e40-9a74-11ed-b135-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /51lio29f, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌪, server: id-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /sshkit/egekep/63cd6c6938a25/, headers: {Host: zoom.us}}, udp: true}
-  - {name: ID🌲, server: id-1.0rd.net, port: 443, type: vmess, uuid: f8d05b10-9c1b-11ed-b134-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /706es39q, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌳, server: id-1.0rd.net, port: 443, type: vmess, uuid: f8d05b10-9c1b-11ed-b134-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maps.gstatic.com, network: ws, ws-opts: {path: /706es39q, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: ID🌴, server: id-2.0rd.net, port: 443, type: vmess, uuid: 2d635d00-9c1c-11ed-b636-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clients5.google.com, network: ws, ws-opts: {path: /rwld9afn, headers: {Host: id-2.0rd.net}}, udp: true}
-  - {name: ID🌵, server: id-2.0rd.net, port: 443, type: vmess, uuid: 2d635d00-9c1c-11ed-b636-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: io.ruangguru.com, network: ws, ws-opts: {path: /rwld9afn, headers: {Host: id-2.0rd.net}}, udp: true}
+  - {name: ID🛶, server: idtj-herza.bonds.id, port: 443, type: trojan, password: c01e9e90-9f8c-11ed-ba21-1239d0255272, skip-cert-verify: true, sni: dl.gooogle.com, udp: true}
+  - {name: ID🚁, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: a3b3e030-9f8c-11ed-ab6e-1239d0255272, skip-cert-verify: true, sni: zoom.us, udp: true}
+  - {name: SG🪂, server: sg-2.0rd.net, port: 443, type: vmess, uuid: 847ddbd0-9f8c-11ed-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /j0ikz4vb, headers: {Host: meet.google.com}}, udp: true}
   
   
   
