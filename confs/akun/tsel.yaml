@@ -2,6 +2,9 @@ proxies:
   - {name: RG🐌, server: 199.60.103.28, port: 80, type: vmess, uuid: da602c50-9e4b-11ed-b639-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /7xs58qnt, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: RG💨, server: 104.18.3.2, port: 443, type: vmess, uuid: da602c50-9e4b-11ed-b639-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /7xs58qnt, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: RG ID🌴, server: 104.18.2.2, port: 443, type: vmess, uuid: ffd2dd70-9e4c-11ed-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /3dvcnwx9, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🎊, server: 104.18.2.2, port: 80, type: vmess, uuid: 94c14220-a30c-11ed-b239-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /ldghmc0k, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: ID🎋, server: 104.18.3.2, port: 80, type: vmess, uuid: c6518620-a30c-11ed-b335-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-2.0rd.net, network: ws, ws-opts: {path: /vb82tiep, headers: {Host: id-2.0rd.net}}, udp: true}
+  
   
   
 # Server update
