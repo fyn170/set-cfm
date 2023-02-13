@@ -6,10 +6,10 @@ payload:
   # Direct
   - IP-CIDR,192.168.1.1/24
   # AXIS
-  - DOMMAIN-KEYWORD,axisnet,Server
-  - DOMMAIN-SUFFIX,axisnet.id,Server
-  - DOMMAIN-SUFFIX,my.axisnet.id,Server
+  - DOMAIN-KEYWORD,axisnet,Server
+  - DOMAIN-SUFFIX,axisnet.id,Server
+  - DOMAIN-SUFFIX,my.axisnet.id,Server
   # XL
-  - DOMMAIN-KEYWORD,myxl,Server
-  - DOMMAIN-SUFFIX,www.xl.co.id,Server
+  - DOMAIN-KEYWORD,myxl,Server
+  - DOMAIN-SUFFIX,www.xl.co.id,Server
   
