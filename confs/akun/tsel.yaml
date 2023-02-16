@@ -5,6 +5,9 @@ proxies:
   - {name: SG-4, server: 104.16.51.111, port: 443, type: vmess, uuid: 2c8dd975-b2ba-41c9-9202-9ba88fd6feef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2mws.mainssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2mws.mainssh.xyz}}, udp: true}
   - {name: SG-ssl-5, server: sg3mws.mainssh.xyz, port: 443, type: vmess, uuid: 3c242179-024c-41c1-961d-cdfc338ad538, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3mws.mainssh.xyz}}, udp: true}
   - {name: SG-ssl-6, server: sg3mws.mainssh.xyz, port: 443, type: vmess, uuid: 3c242179-024c-41c1-961d-cdfc338ad538, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3mws.mainssh.xyz}}, udp: true}
-
+  - {name: 1, server: sg-lb.vhax.net, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /sshkit/mabhrhpot/63ee64d8edaf8/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: 2, server: 104.18.2.2, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/mabhrhpot/63ee64d8edaf8/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: 3, server: www.udemy.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/mabhrhpot/63ee64d8edaf8/, headers: {Host: sg-lb.vhax.net}}, udp: true}
+  - {name: 4, server: www.skillacademy.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-lb.vhax.net, network: ws, ws-opts: {path: /sshkit/mabhrhpot/63ee64d8edaf8/, headers: {Host: sg-lb.vhax.net}}, udp: true}
 
 # Server update
