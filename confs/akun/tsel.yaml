@@ -1,7 +1,7 @@
 proxies:
   - {name: SG1, server: sg-10.0rd.net, port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-1\"", network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
-  - {name: SG2, server: "\"*edu-ws-1", port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
-  - {name: SG3, server: "\"*edu-ws-2\"", port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
-  - {name: SG4, server: "\"*edu-ws-3\"", port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
+  - {name: SG2, server: www.udemy.com, port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
+  - {name: SG3, server: skillacademy.com, port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
+  - {name: SG4, server: io.ruangguru.com, port: 443, type: vmess, uuid: 3e0004e0-b1ff-11ed-b734-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-10.0rd.net, network: ws, ws-opts: {path: /aej8fwpx, headers: {Host: sg-10.0rd.net}}, udp: true}
 
 # Server update
