@@ -5,6 +5,165 @@ proxies:
   - {name: Sg4-ws, server: 172.67.73.5, port: 2086, type: vmess, uuid: 390bafd4-20fb-445b-918f-44f821cc1906, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dynamic-sg3b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}, udp: true}
   - {name: Sg5-ws, server: 104.21.83.237, port: 80, type: vmess, uuid: 390bafd4-20fb-445b-918f-44f821cc1906, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dynamic-sg3b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}, udp: true}
   - {name: Sg6-ssl, server: dynamic-sg3b.obfs.xyz, port: 443, type: vmess, uuid: 390bafd4-20fb-445b-918f-44f821cc1906, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}, udp: true}
-  
+  - name: 66 🇸🇬 G-CORE LABS S.A. WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sg-gcore.sharecentre.online
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /shirker
+      headers: 
+        Host: sg-gcore.sharecentre.online
+  - name: 40 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: ab8e5a38-8181-4b51-a5d2-c3d79fbb7d72
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: agin.drinkdrunk.my.id
+  - name: 1696 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /v2ray
+      headers: 
+        Host: 70pt.autocf.site
+  - name: 12 🇸🇬 AS-CHOOPA WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sgvu.sharecentre.online
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /shirker
+      headers: 
+        Host: sgvu.sharecentre.online
+  - name: 1486 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: jpjoq.ftvpn.xyz
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: jpjoq.ftvpn.xyz
+  - name: 20 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: b943fbbc-2abe-4f89-bbb8-ad86f7d7ecb3
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: putrastores.xyz
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: putrastores.xyz
+  - name: 15 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: b943fbbc-2abe-4f89-bbb8-ad86f7d7ecb3
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: putrastores.xyz
+  - name: 1542 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: jpjoq.ftvpn.xyz
+  - name: 13 🇸🇬 AS-26496-GO-DADDY-COM-LLC WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sg-1.sharecentre.online
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /shirker
+      headers: 
+        Host: sg-1.sharecentre.online
+  - name: 103 🇸🇬 OVH SAS WS CDN TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: bb242290-b36b-11ed-83f6-1239d0255272
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sg1.socifiles.com
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmws
+      headers: 
+        Host: sg1.socifiles.com
   
 # Server update
