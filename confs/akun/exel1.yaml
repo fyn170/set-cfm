@@ -1,10 +1,8 @@
 proxies:
-  - {name: SG1, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-1\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
-  - {name: SG2, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-2\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
-  - {name: SG3, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-3\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
-  - {name: SG4, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-4\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
-  - {name: SG5, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-5\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
-  - {name: SG6, server: sg-6.0rd.net, port: 443, type: vmess, uuid: f42f60e0-b1fd-11ed-b035-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "\"*edu-ssl-6\"", network: ws, ws-opts: {path: /rvh2q1wg, headers: {Host: sg-6.0rd.net}}, udp: true}
+  - {name: 1731 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS, server: quiz.vidio.com, port: 80, type: vmess, uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 70pt.autocf.site, network: ws, ws-opts: {path: /, headers: {Host: 70pt.autocf.site}}, udp: true}
+  - {name: 277 🇸🇬 OVH SAS WS CDN NTLS, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-ovh2.1server.co, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
+  - {name: 278 🇸🇬 OVH SAS WS CDN NTLS, server: www.udemy.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-ovh2.1server.co, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
+  - {name: 1631 🇸🇬 AMAZON-02 WS CDN NTLS, server: quiz.vidio.com, port: 80, type: vmess, uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: hk-iv.somnode.top, network: ws, ws-opts: {path: /, headers: {Host: hk-iv.somnode.top}}, udp: true}
   
   
 # Comming Soon
