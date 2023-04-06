@@ -1,5 +1,6 @@
 proxies:
   - {name: Game 🎮, server: dynamic-sg3b.obfs.xyz, port: 443, type: vmess, uuid: a8f0fa87-369d-48a6-9af3-5e1ee76ea28b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.pubgmobile.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}, udp: true}
+  - {name: 🇸🇬 Game, server: asia1.oceis.net, port: 443, type: trojan, password: 20c17740-d39e-11ed-b037-205c6d5f5d78, skip-cert-verify: true, sni: www.pubgmobile.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
   - {name: 🇸🇬 Vidio, server: quiz.vidio.com, port: 443, type: trojan, password: 20c17740-d39e-11ed-b037-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
   
 # Server update
