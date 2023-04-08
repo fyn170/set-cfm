@@ -2,5 +2,7 @@ proxies:
   - {name: 🇮🇩 Kuota Harian 700MB, server: www.udemy.com, port: 443, type: trojan, password: 013b5e60-d2cc-11ed-b337-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
   - {name: 🇮🇩 Vidio 1, server: quiz.vidio.com, port: 443, type: trojan, password: 013b5e60-d2cc-11ed-b337-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
   - {name: 🇸🇬 Vidio 2, server: quiz.vidio.com, port: 443, type: trojan, password: a81ca640-d2cc-11ed-8332-1239d0255272, skip-cert-verify: true, sni: sg1.socifiles.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: sg1.socifiles.com}}, udp: true}
+  - {name: Harian 700MB, server: www.udemy.com, port: 443, type: vmess, uuid: 6fba7bf0-d60b-11ed-b233-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: asia1.oceis.net, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.oceis.net}}, udp: true}
+  - {name: Vidio, server: quiz.vidio.com, port: 443, type: vmess, uuid: 6fba7bf0-d60b-11ed-b233-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: asia1.oceis.net, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.oceis.net}}, udp: true}
   
 # Server update
