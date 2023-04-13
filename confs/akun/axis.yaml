@@ -1,6 +1,7 @@
 proxies:
-  - {name: Game 🎮, server: dynamic-sg3b.obfs.xyz, port: 443, type: vmess, uuid: a8f0fa87-369d-48a6-9af3-5e1ee76ea28b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.pubgmobile.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg3b.obfs.xyz}}, udp: true}
-  - {name: 🇸🇬 Game, server: asia1.oceis.net, port: 443, type: trojan, password: 20c17740-d39e-11ed-b037-205c6d5f5d78, skip-cert-verify: true, sni: www.pubgmobile.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
   - {name: 🇸🇬 Vidio, server: quiz.vidio.com, port: 443, type: trojan, password: 20c17740-d39e-11ed-b037-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
+  - {name: Game-1 🇮🇩, server: asia1.oceis.net, port: 443, type: vmess, uuid: 0ce3f150-da45-11ed-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.pubgmobile.com, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.oceis.net}}, udp: true}
+  - {name: Game-2 🇮🇩, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: 0ce3f150-da45-11ed-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: asia1.oceis.net, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.oceis.net}}, udp: true}
+  - {name: Game-3 🇸🇬, server: v2ray3.udpgw.com, port: 443, type: vmess, uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: poe.garena.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
   
 # Server update
