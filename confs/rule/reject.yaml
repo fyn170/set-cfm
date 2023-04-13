@@ -10,3 +10,5 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DST-PORT,443,Server,youtube,REJECT
