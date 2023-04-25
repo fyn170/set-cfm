@@ -1,5 +1,5 @@
 proxies:
   - {name: Vidio-xXx, server: quiz.vidio.com, port: 443, type: trojan, password: 0ab793c0-e1ef-11ed-8ec4-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
   - {name: Vidio-Xnxx, server: quiz.vidio.com, port: 443, type: trojan, password: 20493ca0-e1ef-11ed-801b-1239d0255272, skip-cert-verify: true, sni: sg-3.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-3.test3.net}}, udp: true}
-  
+  - {name: Vidio, server: quiz.vidio.com, port: 443, type: trojan, password: e37e9e30-e366-11ed-b331-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
 # Server update
