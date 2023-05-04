@@ -1,9 +1,7 @@
 proxies:
-  - {name: SG1, server: ava.game.naver.com, port: 443, type: vmess, uuid: 1765ca31-aa3c-415f-ad00-ea76912c3c4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: SG2, server: sogood.linefriends.com, port: 443, type: vmess, uuid: 1765ca31-aa3c-415f-ad00-ea76912c3c4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: SG3, server: ava.game.naver.com, port: 443, type: vmess, uuid: 83daec72-b874-44fd-bc3e-71bbae9cc9de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-  - {name: SG4, server: sogood.linefriends.com, port: 443, type: trojan, password: c0777910-e750-11ed-b831-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
-  - {name: Turbo1, server: zendesk1.grab.com, port: 443, type: vmess, uuid: 83daec72-b874-44fd-bc3e-71bbae9cc9de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-  - {name: Turbo2, server: zendesk1.grab.com, port: 443, type: trojan, password: c0777910-e750-11ed-b831-205c6d5f5d78, skip-cert-verify: true, sni: asia1.oceis.net, network: ws, ws-opts: {path: /trojanws, headers: {Host: asia1.oceis.net}}, udp: true}
-  
+  - {name: 700Mb/Day, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: e6e022aa-9f1a-42ba-99b6-135f9bc45b79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.microsoft.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: teams.microsoft.com}}, udp: true}
+  - {name: Line, server: sogood.linefriends.com, port: 443, type: vmess, uuid: e6e022aa-9f1a-42ba-99b6-135f9bc45b79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
+  - {name: Turbo Basic, server: zendesk1.grab.com, port: 443, type: vmess, uuid: e6e022aa-9f1a-42ba-99b6-135f9bc45b79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
+  - {name: Whatsapp ( Cari Ip 10.1xx ), server: dynamic-sg2b.obfs.xyz, port: 80, type: vmess, uuid: e6e022aa-9f1a-42ba-99b6-135f9bc45b79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /chat, headers: {Host: c.whatsapp.net}}, udp: true}
+
 # Server update
