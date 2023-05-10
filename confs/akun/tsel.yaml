@@ -2,5 +2,8 @@ proxies:
   - {name: Harian 700MB, server: 104.17.3.81, port: 443, type: vmess, uuid: fddd5372-5efa-446b-8207-609750c9ebe1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idmws.mainssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: idmws.mainssh.xyz}}, udp: true}
   - {name: Unlimited Wa/Line, server: sogood.linefriends.com, port: 443, type: vmess, uuid: 2a750bf2-4957-4f63-b1fb-3fd3cde6aee3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
   - {name: Unlimited Turbo 1GB/D, server: zendesk1.grab.com, port: 2082, type: vmess, uuid: 1c20ff57-7da2-4665-971e-5b73cf96b362, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
-
+  - {name: HARIAN-700MB, server: 104.17.3.81, port: 443, type: trojan, password: dd19f2d1-4029-4cb1-b8cf-0d826598cd8f, skip-cert-verify: true, sni: sg1trws.createxray.me, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1trws.createxray.me}}, udp: true}
+  - {name: LINE, server: sogood.linefriends.com, port: 443, type: trojan, password: dd19f2d1-4029-4cb1-b8cf-0d826598cd8f, skip-cert-verify: true, sni: sg1trws.createxray.me, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1trws.createxray.me}}, udp: true}
+  - {name: TURBO-1GB/D, server: zendesk1.grab.com, port: 443, type: trojan, password: dd19f2d1-4029-4cb1-b8cf-0d826598cd8f, skip-cert-verify: true, sni: sg1trws.createxray.me, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1trws.createxray.me}}, udp: true}
+  
 # Server update
