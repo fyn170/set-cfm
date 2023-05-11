@@ -1,13 +1,6 @@
 proxies:
-  - {name: 553 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "789 🇸🇬 AS16509 AMAZON.COM, INC. TCP SNI NTLS", server: 18.143.169.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 209 🇸🇬 AS16276 OVH SAS TCP SNI NTLS, server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4Hub2f9JyhECyAq2Opm0NS, udp: true}
-  - {name: 1233 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD TCP SNI NTLS, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 744 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 748 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 217.197.161.136, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 1286 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 81.90.188.58, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: 751 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 217.197.161.138, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 564 🇸🇬 AS212238 DATACAMP LIMITED TCP SNI NTLS, server: 217.197.161.138, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG1, server: sg1trws.createxray.me, port: 443, type: trojan, password: d493618e-2fed-4e84-9a17-5d0370e4c5b0, skip-cert-verify: true, sni: sp.garena.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1trws.createxray.me}}, udp: true}
+  - {name: SG2, server: xray.vpnstunnel.me, port: 443, type: vmess, uuid: a5607e22-17af-447a-94d5-bbb46d12d40c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sp.garena.com, network: ws, ws-opts: {path: /vmess, headers: {Host: xray.vpnstunnel.me}}, udp: true}
   - {name: 67 🇸🇬 AS16276 OVH SAS TCP SNI NTLS, server: 51.79.141.144, port: 51199, type: vmess, uuid: 35b05d90-1ae2-4d5c-a42b-13b842ee584a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, udp: true}
   - {name: 1046 🇮🇩 AS23679 MEDIA ANTAR NUSA PT. WS SNI NTLS, server: 104.18.3.2, port: 443, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, network: ws, ws-opts: {path: /, headers: {Host: sp.garena.com}}, udp: true}
   - {name: 1326 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS SNI NTLS, server: zendesk1.grab.com, port: 2082, type: vmess, uuid: 1c20ff57-7da2-4665-971e-5b73cf96b362, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, network: ws, ws-opts: {path: /, headers: {Host: sp.garena.com}}, udp: true}
@@ -15,4 +8,5 @@ proxies:
   - {name: 67 🇸🇬 AS16276 OVH SAS TCP SNI NTLS, server: 51.79.141.144, port: 51199, type: vmess, uuid: 35b05d90-1ae2-4d5c-a42b-13b842ee584a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, udp: true}
   - {name: 1197 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS SNI NTLS, server: sgddnsfz.apcloudcdn.com, port: 443, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, network: ws, ws-opts: {path: /, headers: {Host: sp.garena.com}}, udp: true}
   - {name: "1128 🇸🇬 AS14061 DIGITALOCEAN, LLC WS SNI NTLS", server: 104.21.235.172, port: 443, type: vmess, uuid: ee714d3d-3fbc-492b-823b-58bbcb840225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sp.garena.com, network: ws, ws-opts: {path: /, headers: {Host: sp.garena.com}}, udp: true}
+  
 # Server update
