@@ -1,8 +1,6 @@
 proxies:
-  - {name: 700MB, server: 104.17.3.81, port: 80, type: vmess, uuid: f8e9407e-5700-477d-857d-8257ea418c4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
-  - {name: Line, server: sogood.linefriends.com, port: 80, type: vmess, uuid: f8e9407e-5700-477d-857d-8257ea418c4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
-  - {name: Turbo 1GB, server: 104.17.3.81, port: 80, type: vmess, uuid: f8e9407e-5700-477d-857d-8257ea418c4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
-  - {name: WhatsappDirect, server: sg1.createxray.me, port: 80, type: vmess, uuid: f8e9407e-5700-477d-857d-8257ea418c4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: c.whatsapp.net, network: ws, ws-opts: {path: /chat/vmess, headers: {Host: c.whatsapp.net}}, udp: true}
-  - {name: WhatsappSSL, server: sg1.createxray.me, port: 443, type: vmess, uuid: f8e9407e-5700-477d-857d-8257ea418c4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: w5.web.whatsapp.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
+  - {name: 700mb, server: 104.17.3.81, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray3.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: Line/Wa, server: sogood.linefriends.com, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray3.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: Turbo 1GB, server: zendesk1.grab.com, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray3.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
   
 # Server update
