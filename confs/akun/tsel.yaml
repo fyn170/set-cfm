@@ -1,7 +1,7 @@
 proxies:
   - {name: Harian 700MB, server: 104.17.3.81, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
-  - {name: Line/Wa, server: 104.22.2.25, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
-  - {name: Line/wa, server: 104.22.3.25, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
+  - {name: Line/Wa, server: ava.game.naver.com, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
+  - {name: Line/wa, server: sogood.linefriends.com, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
   - {name: Turbo 1GB, server: zendesk1.grab.com, port: 80, type: vmess, uuid: bed0b3d2-03b6-4fb5-b4aa-76150dd609bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2.createxray.me}}, udp: true}
   
 # Server update
