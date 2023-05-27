@@ -1,4 +1,5 @@
 proxies:
-  - {name: Game 1 Gb/Hari, server: v2ray3.udpgw.com, port: 443, type: vmess, uuid: 0dcfc65f-a0fd-4eda-800c-304aef72c43a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
+  - {name: ID1, server: id-jy.vpnstunnel.me, port: 443, type: vmess, uuid: 01b24cb5-9ebd-44b9-b901-6fad970c8b55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: id-jy.vpnstunnel.me}}, udp: true}
+  - {name: ID2, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: 01b24cb5-9ebd-44b9-b901-6fad970c8b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-jy.vpnstunnel.me, network: ws, ws-opts: {path: /vmess, headers: {Host: id-jy.vpnstunnel.me}}, udp: true}
   
 # Server update
