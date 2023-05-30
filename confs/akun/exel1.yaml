@@ -1,6 +1,7 @@
 proxies:
-  - {name: 700MB, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 1ef8fff2-9c08-4c29-a45f-360240616901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
-  - {name: Turbo 1GB, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 1ef8fff2-9c08-4c29-a45f-360240616901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
-  - {name: Wa/Line, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 1ef8fff2-9c08-4c29-a45f-360240616901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
+  - {name: 1, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: 2, server: academy.noice.id, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: 3, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: 4, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
   
 # Server update
