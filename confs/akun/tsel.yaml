@@ -1,6 +1,7 @@
 proxies:
-  - {name: 700MB, server: 104.17.3.81, port: 80, type: vmess, uuid: 64fbbcc8-54f0-4516-9087-f9db0d3cc593, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
-  - {name: Turbo 1GB, server: zendesk1.grab.com, port: 80, type: vmess, uuid: 64fbbcc8-54f0-4516-9087-f9db0d3cc593, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
-  - {name: Wa/Line, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 64fbbcc8-54f0-4516-9087-f9db0d3cc593, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
-  
+  - {name: 1, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.microsoft.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: 2, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh.google.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: 3, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: 4, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+ 
 # Server update
