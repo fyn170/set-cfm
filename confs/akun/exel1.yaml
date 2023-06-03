@@ -1,7 +1,7 @@
 proxies:
-  - {name: 1, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: 2, server: academy.noice.id, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: 3, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: 4, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: ad447df4-0610-4396-bcc5-0c82c4f7810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  
+  - {name: 1, server: trojan1.udpgw.com, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: zoom.us, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
+  - {name: 2, server: trojan1.udpgw.com, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
+  - {name: 3, server: trojan1.udpgw.com, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
+  - {name: 4, server: www.noice.id, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: trojan1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
+
 # Server update
