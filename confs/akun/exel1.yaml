@@ -3,5 +3,9 @@ proxies:
   - {name: 2, server: trojan1.udpgw.com, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
   - {name: 3, server: trojan1.udpgw.com, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
   - {name: 4, server: www.noice.id, port: 443, type: trojan, password: 6190c0d0-0261-11ee-83f6-1239d0255272, skip-cert-verify: true, sni: trojan1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}, udp: true}
-
+  - {name: SG1, server: sg1.createxray.me, port: 443, type: vmess, uuid: 1c6c0084-a8e9-4601-adbb-955bbd453873, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
+  - {name: SG2, server: sg1.createxray.me, port: 443, type: vmess, uuid: 1c6c0084-a8e9-4601-adbb-955bbd453873, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
+  - {name: SG3, server: sg1.createxray.me, port: 443, type: vmess, uuid: 1c6c0084-a8e9-4601-adbb-955bbd453873, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: layanan.ruangguru.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
+  - {name: SG4, server: www.noice.id, port: 80, type: vmess, uuid: 1c6c0084-a8e9-4601-adbb-955bbd453873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.createxray.me}}, udp: true}
+  
 # Server update
