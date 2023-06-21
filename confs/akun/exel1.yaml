@@ -1,11 +1,7 @@
 proxies:
-  - {name: sG1, server: www.noice.id, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: sG2, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray2.udpgw.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: sG3, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: sG4, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: 1, server: 104.17.3.81, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 2, server: www.noice.id, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 3, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: 4, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  
+  - {name: SGT1, server: 104.17.3.81, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: sg-2.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
+  - {name: SGT2, server: www.nice.id, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: sg-2.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
+  - {name: SGT3, server: sg-2.test3.net, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: zoom.us, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
+  - {name: SGT4, server: sg-2.test3.net, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
+
 # Server update
