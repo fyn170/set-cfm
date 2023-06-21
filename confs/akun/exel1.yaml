@@ -1,6 +1,6 @@
 proxies:
   - {name: SGT1, server: 104.17.3.81, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: sg-2.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
-  - {name: SGT2, server: www.nice.id, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: sg-2.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
+  - {name: SGT2, server: www.noice.id, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: sg-2.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
   - {name: SGT3, server: sg-2.test3.net, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: zoom.us, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
   - {name: SGT4, server: sg-2.test3.net, port: 443, type: trojan, password: 55837c20-0ffd-11ee-aea4-1239d0255272, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-2.test3.net}}, udp: true}
 
