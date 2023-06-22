@@ -1,8 +1,8 @@
 proxies:
-  - {name: Conference1, server: sg3.createxray.me, port: 443, type: vmess, uuid: e55c6236-53c9-44b8-8fcc-1fb3dd927783, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.microsoft.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3.createxray.me}}, udp: true}
-  - {name: Conference2, server: sg3.createxray.me, port: 443, type: vmess, uuid: e55c6236-53c9-44b8-8fcc-1fb3dd927783, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3.createxray.me}}, udp: true}
-  - {name: Conference3, server: sg3.createxray.me, port: 443, type: vmess, uuid: e55c6236-53c9-44b8-8fcc-1fb3dd927783, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zoom.us, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3.createxray.me}}, udp: true}
-  - {name: GAME1, server: sg3.createxray.me, port: 443, type: vmess, uuid: e55c6236-53c9-44b8-8fcc-1fb3dd927783, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3.createxray.me}}, udp: true}
-  - {name: GAME2, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: e55c6236-53c9-44b8-8fcc-1fb3dd927783, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg3.createxray.me, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3.createxray.me}}, udp: true}
+  - {name: 1, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: 2, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: 3, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: kh.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: 4, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: zoom.us, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: 5, server: cdn.appsflyer.com, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   
 # Server update
