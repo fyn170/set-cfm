@@ -4,5 +4,6 @@ proxies:
   - {name: 3, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: kh.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   - {name: 4, server: id-1.test3.net, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: zoom.us, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   - {name: 5, server: cdn.appsflyer.com, port: 443, type: trojan, password: adbdf720-10f7-11ee-8a0d-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: "@Wifi.Id", server: asia1.oceis.net, port: 80, type: vmess, uuid: 0032d3b0-11de-11ee-b538-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: isolir.indihome.co.id, network: ws, ws-opts: {path: /vmws, headers: {Host: isolir.indihome.co.id}}, udp: true}
   
 # Server update
