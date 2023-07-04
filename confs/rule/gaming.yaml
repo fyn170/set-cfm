@@ -6,6 +6,7 @@ payload:
   # KartRider
   - DOMAIN-SUFFIX,mkartdrift.dn.nexoncdn.co.kr
   # Mobilelegends
+  - DOMAIN,youngjoygame.com
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,m.mobilelegends.com
   - DOMAIN-SUFFIX,img.mobilelegends.com
