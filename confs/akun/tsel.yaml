@@ -1,5 +1,9 @@
 proxies:
   - {name: Sg1, server: 104.17.3.81, port: 443, type: trojan, password: 6601fcf0-1766-11ee-9ff2-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   - {name: Sg2, server: 104.18.2.2, port: 443, type: trojan, password: 6601fcf0-1766-11ee-9ff2-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: SG1, server: 104.17.3.81, port: 443, type: vmess, uuid: dbb1127a-af00-4ed6-b715-a275195c73ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: SG2, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: dbb1127a-af00-4ed6-b715-a275195c73ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gw.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: bing.com}}, udp: true}
+  - {name: 1, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 31775410-d808-410e-b8ec-f5e4862a3e23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gw.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: gw.ruangguru.com}}, udp: true}
+  - {name: 1, server: 104.17.3.81, port: 443, type: vmess, uuid: 31775410-d808-410e-b8ec-f5e4862a3e23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gw.ruangguru.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
 
 # Server update
