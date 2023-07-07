@@ -6,5 +6,7 @@ proxies:
   - {name: Game1, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
   - {name: Game2, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
   - {name: Wa, server: cdn.noice.id, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: Game 1GB, server: cdn.appsflyer.com, port: 443, type: trojan, password: 66148be0-1cc0-11ee-b8db-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: Game 1gb, server: sg-4.test3.net, port: 443, type: trojan, password: 66148be0-1cc0-11ee-b8db-1239d0255272, skip-cert-verify: true, sni: pubgmobipe.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
   
 # Server update
