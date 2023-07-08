@@ -10,5 +10,5 @@ proxies:
   - {name: Game 1gb, server: sg-4.test3.net, port: 443, type: trojan, password: 66148be0-1cc0-11ee-b8db-1239d0255272, skip-cert-verify: true, sni: pubgmobipe.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
   - {name: Game SSL, server: id-1.0rd.net, port: 443, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
   - {name: Game Ws, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
-  
+  - {name: Edu Ws, server: 104.17.3.81, port: 80, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
 # Server update
