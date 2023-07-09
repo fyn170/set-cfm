@@ -1,12 +1,12 @@
 proxies:
-  - {name: Game1GB, server: sg2-trojan.bonds.id, port: 443, type: trojan, password: 59f7d5e0-1da9-11ee-a9ce-1239d0255272, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
-  - {name: Game1-GB, server: cdn.appsflyer.com, port: 443, type: trojan, password: 59f7d5e0-1da9-11ee-a9ce-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
-  - {name: Edu1, server: 104.17.3.81, port: 443, type: trojan, password: 59f7d5e0-1da9-11ee-a9ce-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
-  - {name: Game2, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: Wa, server: cdn.noice.id, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-  - {name: Game 1GB, server: cdn.appsflyer.com, port: 443, type: trojan, password: 66148be0-1cc0-11ee-b8db-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
-  - {name: Game 1gb, server: sg-4.test3.net, port: 443, type: trojan, password: 66148be0-1cc0-11ee-b8db-1239d0255272, skip-cert-verify: true, sni: pubgmobipe.com, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
-  - {name: Game SSL, server: id-1.0rd.net, port: 443, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: Game Ws, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: Edu Ws, server: 104.17.3.81, port: 80, type: vmess, uuid: de3b3980-1d17-11ee-b536-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /e928lv6i, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: Edukasi, server: 104.17.3.81, port: 443, type: vmess, uuid: e5bbeb2c-626b-488c-b9c5-0d058eb320e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id5.v2rayserv.com, network: ws, ws-opts: {path: /vmess, headers: {Host: id5.v2rayserv.com}}, udp: true}
+  
+  - {name: Game-1, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: 68706323-6202-4c94-a22c-7c4ae48c785a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg7.v2rayserv.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg7.v2rayserv.com}}, udp: true}
+  
+  - {name: Game-2, server: sg7.v2rayserv.com, port: 443, type: vmess, uuid: 68706323-6202-4c94-a22c-7c4ae48c785a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg7.v2rayserv.com}}, udp: true}
+  
+  - {name: Game-3, server: idtcp.mainssh.xyz, port: 443, type: trojan, password: mainssh-vsgtw617, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
+  
+  - {name: Game-4, server: idtcp.mainssh.xyz, port: 443, type: trojan, password: mainssh-vsgtw617, skip-cert-verify: true, sni: poe.garena.com, udp: true}
+  
 # Server update
