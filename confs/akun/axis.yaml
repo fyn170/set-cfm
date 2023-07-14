@@ -10,4 +10,7 @@ proxies:
   - {name: Game-6, server: cdn.appsflyer.com, port: 443, type: trojan, password: ad5e1b97-334f-4bf7-9120-56127d0eba0b, skip-cert-verify: true, sni: krt1.greenssh.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: krt1.greenssh.xyz}}, udp: true}
   - {name: Game-7, server: cdn.appsflyer.com, port: 443, type: trojan, password: 374c8f5d-e5af-4eb9-8cb2-cd1a5630eec4, skip-cert-verify: true, sni: idt3.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt3.sshocean.net}}, udp: true}
   - {name: Game-8, server: idt3.sshocean.net, port: 443, type: trojan, password: 374c8f5d-e5af-4eb9-8cb2-cd1a5630eec4, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt3.sshocean.net}}, udp: true}
-  # Server update
+  - {name: Vidio, server: quiz.vidio.com, port: 443, type: trojan, password: 374c8f5d-e5af-4eb9-8cb2-cd1a5630eec4, skip-cert-verify: true, sni: idt3.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt3.sshocean.net}}, udp: true}
+  - {name: Video, server: quiz.vidio.com, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
+
+# Server update
