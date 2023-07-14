@@ -6,5 +6,8 @@ proxies:
   - {name: Game-2, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
   - {name: Game-3, server: sg2-vmess.greenssh.xyz, port: 443, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
   - {name: Game-4, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
-
+  - {name: Game-5, server: krt1.greenssh.xyz, port: 443, type: trojan, password: ad5e1b97-334f-4bf7-9120-56127d0eba0b, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /websocket, headers: {Host: krt1.greenssh.xyz}}, udp: true}
+  - {name: Game-6, server: cdn.appsflyer.com, port: 443, type: trojan, password: ad5e1b97-334f-4bf7-9120-56127d0eba0b, skip-cert-verify: true, sni: krt1.greenssh.xyz, network: ws, ws-opts: {path: /websocket, headers: {Host: krt1.greenssh.xyz}}, udp: true}
+  - {name: Game-7, server: cdn.appsflyer.com, port: 443, type: trojan, password: 374c8f5d-e5af-4eb9-8cb2-cd1a5630eec4, skip-cert-verify: true, sni: idt3.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt3.sshocean.net}}, udp: true}
+  - {name: Game-8, server: idt3.sshocean.net, port: 443, type: trojan, password: 374c8f5d-e5af-4eb9-8cb2-cd1a5630eec4, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt3.sshocean.net}}, udp: true}
   # Server update
