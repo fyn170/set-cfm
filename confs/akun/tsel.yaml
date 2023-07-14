@@ -7,6 +7,6 @@ proxies:
   - {name: 700MB/D, server: sg1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: c9f1b13f-1e00-4b7a-8b26-f0b72c51cc51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: meet.google.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
   - {name: Wa, server: sogood.linefriends.com, port: 443, type: vmess, uuid: c9f1b13f-1e00-4b7a-8b26-f0b72c51cc51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
   - {name: Line, server: cdn.noice.id, port: 443, type: vmess, uuid: c9f1b13f-1e00-4b7a-8b26-f0b72c51cc51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
-  - {name: Turbo, server: zendesk1.grab.com, port: 80, type: vmess, uuid: c9f1b13f-1e00-4b7a-8b26-f0b72c51cc51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
+  - {name: Turbo-X, server: zendesk1.grab.com, port: 80, type: vmess, uuid: c9f1b13f-1e00-4b7a-8b26-f0b72c51cc51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg1-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-vmess.greenssh.xyz}}, udp: true}
   
 # Server update
