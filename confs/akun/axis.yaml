@@ -1,12 +1,10 @@
 proxies:
-  - {name: Edu, server: 104.17.3.81, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
-  - {name: Game-0, server: idray.serverip.my.id, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
-  - {name: Game-1, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
-  
-  - {name: Edukasi, server: 104.17.3.81, port: 443, type: vmess, uuid: e5bbeb2c-626b-488c-b9c5-0d058eb320e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id5.v2rayserv.com, network: ws, ws-opts: {path: /vmess, headers: {Host: id5.v2rayserv.com}}, udp: true}
-  - {name: Game-1, server: cdn.appsflyer.com, port: 80, type: vmess, uuid: 68706323-6202-4c94-a22c-7c4ae48c785a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg7.v2rayserv.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg7.v2rayserv.com}}, udp: true}
-  - {name: Game-2, server: sg7.v2rayserv.com, port: 443, type: vmess, uuid: 68706323-6202-4c94-a22c-7c4ae48c785a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg7.v2rayserv.com}}, udp: true}
-  - {name: Game-3, server: idtcp.mainssh.xyz, port: 443, type: trojan, password: mainssh-vsgtw617, skip-cert-verify: true, sni: pubgmobile.com, udp: true}
-  - {name: Game-4, server: idtcp.mainssh.xyz, port: 443, type: trojan, password: mainssh-vsgtw617, skip-cert-verify: true, sni: poe.garena.com, udp: true}
-  
-# Server update
+  - {name: Edukasi-1, server: 104.17.3.81, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
+  - {name: Edukasi-2, server: 104.17.3.81, port: 80, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
+  - {name: Edukasi-3, server: sg2-vmess.greenssh.xyz, port: 443, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gw.ruangguru.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
+  - {name: Game-1, server: idray.serverip.my.id, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
+  - {name: Game-2, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 68283234-d233-4170-b09f-37abae2d2864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
+  - {name: Game-3, server: sg2-vmess.greenssh.xyz, port: 443, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
+  - {name: Game-4, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 94a5d82f-0a47-4bc8-b573-30d8a64a7348, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-vmess.greenssh.xyz}}, udp: true}
+
+  # Server update
