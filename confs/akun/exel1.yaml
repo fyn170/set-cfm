@@ -5,5 +5,9 @@ proxies:
   - {name: flex4, server: sogood.linefriends.com, port: 443, type: vmess, uuid: 06039788-64c8-400e-9cb1-ce0f54970b73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2ray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg2ray.serverip.my.id}}, udp: true}
   - {name: flex5, server: zendesk1.grab.com, port: 443, type: vmess, uuid: 06039788-64c8-400e-9cb1-ce0f54970b73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2ray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg2ray.serverip.my.id}}, udp: true}
   - {name: flex6, server: cdn.noice.id, port: 443, type: vmess, uuid: 06039788-64c8-400e-9cb1-ce0f54970b73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2ray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg2ray.serverip.my.id}}, udp: true}
+  - {name: plek1, server: 104.17.3.81, port: 443, type: trojan, password: 4cb5edf0-2627-11ee-8945-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
+  - {name: plek2, server: ava.line.naver.com, port: 443, type: trojan, password: 4cb5edf0-2627-11ee-8945-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
+  - {name: plek3, server: sogood.linefriends.com, port: 443, type: trojan, password: 4cb5edf0-2627-11ee-8945-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
+  - {name: plek4, server: zendesk1.grab.com, port: 443, type: trojan, password: 4cb5edf0-2627-11ee-8945-1239d0255272, skip-cert-verify: true, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}, udp: true}
   
 # Server update
