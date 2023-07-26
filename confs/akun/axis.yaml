@@ -3,5 +3,6 @@ proxies:
   - {name: Game, server: sg-4.0rd.net, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: Sosmed, server: www.help.tinder.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: Vidio, server: quiz.vidio.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: Wa, server: cdn.noice.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
   
 # Server update
