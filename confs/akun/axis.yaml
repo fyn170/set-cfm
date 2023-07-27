@@ -4,5 +4,8 @@ proxies:
   - {name: Sosmed, server: www.help.tinder.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: Vidio, server: quiz.vidio.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: Wa, server: cdn.noice.com, port: 443, type: vmess, uuid: 97b4f3f0-2b26-11ee-b430-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /br2xkpgu, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: game, server: xray.vpnjos.live, port: 443, type: trojan, password: 16cfca1f-1864-4e83-ac6c-285975540163, skip-cert-verify: true, sni: pubgmobile.com, network: ws, ws-opts: {path: /trojan, headers: {Host: xray.vpnjos.live}}, udp: true}
+  - {name: edukasi, server: 104.17.3.81, port: 443, type: trojan, password: 16cfca1f-1864-4e83-ac6c-285975540163, skip-cert-verify: true, sni: xray.vpnjos.live, network: ws, ws-opts: {path: /trojan, headers: {Host: xray.vpnjos.live}}, udp: true}
+  - {name: whatsapp, server: www.noice.id, port: 443, type: trojan, password: 16cfca1f-1864-4e83-ac6c-285975540163, skip-cert-verify: true, sni: xray.vpnjos.live, network: ws, ws-opts: {path: /trojan, headers: {Host: xray.vpnjos.live}}, udp: true}
   
 # Server update
