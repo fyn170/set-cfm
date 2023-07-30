@@ -11,5 +11,8 @@ proxies:
   - {name: GAME, server: sg-8.0rd.net, port: 443, type: vmess, uuid: de9b7680-2d6e-11ee-b437-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pubgmobile.com, network: ws, ws-opts: {path: /1tgaqe53, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: WA1, server: www.noice.id, port: 443, type: vmess, uuid: de9b7680-2d6e-11ee-b437-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /1tgaqe53, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: WA2, server: tech.noice.id, port: 443, type: vmess, uuid: de9b7680-2d6e-11ee-b437-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /1tgaqe53, headers: {Host: sg-8.0rd.net}}, udp: true}
-  
+  - {name: Games, server: poe.garena.com, port: 80, type: vmess, uuid: 7f07ffd0-2efc-11ee-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /u5o314bc, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: edukasI, server: 104.17.3.81, port: 80, type: vmess, uuid: 7f07ffd0-2efc-11ee-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /u5o314bc, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: Whatsapp, server: cdn.noice.id: 80, type: vmess, uuid: 7f07ffd0-2efc-11ee-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /u5o314bc, headers: {Host: sg-8.0rd.net}}, udp: true}
+
 # Server update
