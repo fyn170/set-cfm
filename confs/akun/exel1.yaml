@@ -5,5 +5,8 @@ proxies:
   - {name: 900Mb, server: 104.17.3.81, port: 80, type: vmess, uuid: 82f6a040-2efb-11ee-b935-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /n67o9wfc, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: 60Gb, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 82f6a040-2efb-11ee-b935-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /n67o9wfc, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: 1Gb, server: zendesk1.grabtaxi.com, port: 80, type: vmess, uuid: 82f6a040-2efb-11ee-b935-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /n67o9wfc, headers: {Host: sg-4.0rd.net}}, udp: true}
-  
+  - {name: 900mb, server: idt1.sshocean.net, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: layanan.ruangguru.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
+  - {name: 60gb, server: sogood.linefriends.com, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
+  - {name: 1gb, server: zendesk1.grab.com, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
+ 
 # Server update
