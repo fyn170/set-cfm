@@ -2,5 +2,8 @@ proxies:
   - {name: Harian 900Mb, server: xdo.vpnjos.live, port: 80, type: vless, uuid: 7ded2d34-b9fa-41ca-bc06-36b5ecc96ece, cipher: auto, tls: true, skip-cert-verify: true, Host: meet.google.com, network: ws, ws-opts: {path: /vless, headers: {Host: xdo.vpnjos.live}}, udp: true}
   - {name: Line/Wa 60Gb, server: sogood.linefriends.com, port: 80, type: vless, uuid: 7ded2d34-b9fa-41ca-bc06-36b5ecc96ece, cipher: auto, tls: false, skip-cert-verify: true, Host: xdo.vpnjos.live, network: ws, ws-opts: {path: /vless, headers: {Host: xdo.vpnjos.live}}, udp: true}
   - {name: Turbo 1Gb, server: zendesk1.grab.com, port: 80, type: vless, uuid: 7ded2d34-b9fa-41ca-bc06-36b5ecc96ece, cipher: auto, tls: false, skip-cert-verify: true, Host: xdo.vpnjos.live, network: ws, ws-opts: {path: /vless, headers: {Host: xdo.vpnjos.live}}, udp: true}
-
+  - {name: 900MB Meet/Belajar, server: 104.17.3.81, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: 60GB Line/Wa, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: 1GB Turbo, server: zendesk1.grab.com, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
+  
 # (Pre-release)
