@@ -8,5 +8,8 @@ proxies:
   - {name: 900mb, server: idt1.sshocean.net, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: layanan.ruangguru.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
   - {name: 60gb, server: sogood.linefriends.com, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
   - {name: 1gb, server: zendesk1.grab.com, port: 443, type: trojan, password: 72c4a70c-d6f8-41b3-a55f-c9278c71cc23, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
- 
+  - {name: HARIAN, server: 104.17.3.81, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: LINE, server: sogood.linefriends.com, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: TURBO, server: zendesk1.grab.com, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  
 # Server update
