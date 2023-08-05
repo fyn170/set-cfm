@@ -5,5 +5,8 @@ proxies:
   - {name: 900MB Meet/Belajar, server: 104.17.3.81, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: 60GB Line/Wa, server: sogood.linefriends.com, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
   - {name: 1GB Turbo, server: zendesk1.grab.com, port: 80, type: vmess, uuid: 1482a4a0-3157-11ee-b332-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /12htcsfi, headers: {Host: sg-4.0rd.net}}, udp: true}
+  - {name: HARIAN, server: 104.17.3.81, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: LINE, server: sogood.linefriends.com, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: TURBO, server: zendesk1.grab.com, port: 443, type: trojan, password: 1b759440-33a1-11ee-876a-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
   
 # (Pre-release)
