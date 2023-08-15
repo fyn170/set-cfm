@@ -1,8 +1,8 @@
 wss: [&wss-1 www.noice.id,&wss-2 cdn.appsflyer.com]
 sni: [&sni-1 pubgmobile.com,&sni-2 poe.garena.com]
 proxies:
-  - {name: Game1, server: sg-9.0rd.net, port: 443, type: vmess, uuid: 2a14dec0-367e-11ee-b635-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /zl5h7oej, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: Game2, server: sg-9.0rd.net, port: 443, type: vmess, uuid: 2a14dec0-367e-11ee-b635-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /zl5h7oej, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: Game3, server: *wss-2, port: 443, type: vmess, uuid: 2a14dec0-367e-11ee-b635-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /zl5h7oej, headers: {Host: sg-9.0rd.net}}, udp: true}
-
+  - {name: Games, server: *wss-2, port: 443, type: vmess, uuid: 2a14dec0-367e-11ee-b635-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /zl5h7oej, headers: {Host: sg-9.0rd.net}}, udp: true}
+  - {name: GAME1, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: GAME2, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
+ - {name: GAME3, server: *wss-2, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
 # Server update
