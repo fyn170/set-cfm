@@ -7,5 +7,7 @@ proxies:
   - {name: GAME3, server: *wss-2, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: game1, server: id-1.test3.net, port: 443, type: trojan, password: 9bf75780-3b6f-11ee-9e84-1239d0255272, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   - {name: game2, server: id-1.test3.net, port: 443, type: trojan, password: 9bf75780-3b6f-11ee-9e84-1239d0255272, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: Game-1, server: id-1.test3.net, port: 443, type: trojan, password: 39cf4070-3cc4-11ee-80c2-1239d0255272, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: Game-2, server: id-1.test3.net, port: 443, type: trojan, password: 39cf4070-3cc4-11ee-80c2-1239d0255272, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
   
 # Server update
