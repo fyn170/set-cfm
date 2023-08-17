@@ -1,13 +1,6 @@
 wss: [&wss-1 104.17.3.81,&wss-2 www.noice.id]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com]
 proxies:
-  - {name: SG1, server: *wss-1, port: 80, type: vmess, uuid: b4db54b0-3615-11ee-b634-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /3s1ht62o, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: SG2, server: *wss-2, port: 80, type: vmess, uuid: b4db54b0-3615-11ee-b634-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /3s1ht62o, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: SG3, server: sg-9.0rd.net, port: 443, type: vmess, uuid: b4db54b0-3615-11ee-b634-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /3s1ht62o, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: SG4, server: sg-9.0rd.net, port: 443, type: vmess, uuid: b4db54b0-3615-11ee-b634-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /3s1ht62o, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: SG-1, server: sg-4.0rd.net, port: 443, type: vmess, uuid: 23e49800-3869-11ee-b030-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /pmnhr6e7, headers: {Host: sg-4.0rd.net}}, udp: true}
-  - {name: SG-2, server: sg-4.0rd.net, port: 443, type: vmess, uuid: 23e49800-3869-11ee-b030-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /pmnhr6e7, headers: {Host: sg-4.0rd.net}}, udp: true}
-  - {name: SG-3, server: *wss-1, port: 80, type: vmess, uuid: 23e49800-3869-11ee-b030-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /pmnhr6e7, headers: {Host: sg-4.0rd.net}}, udp: true}
-  - {name: SG-4, server: *wss-2, port: 80, type: vmess, uuid: 23e49800-3869-11ee-b030-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-4.0rd.net, network: ws, ws-opts: {path: /pmnhr6e7, headers: {Host: sg-4.0rd.net}}, udp: true}
-
+  - {name: Menolak Coid 🗿, server: *wss-1, port: 80, type: vmess, uuid: a74c2cd0-3cc3-11ee-b535-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /w8lh7vtu, headers: {Host: sg-9.0rd.net}}, udp: true}
+  - {name: Menolak Coid 🗿⚰️, server: *wss-2, port: 80, type: vmess, uuid: a74c2cd0-3cc3-11ee-b535-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /w8lh7vtu, headers: {Host: sg-9.0rd.net}}, udp: true}
 # Server update
