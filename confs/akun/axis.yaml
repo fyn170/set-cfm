@@ -1,13 +1,7 @@
 wss: [&wss-1 www.noice.id,&wss-2 cdn.appsflyer.com]
 sni: [&sni-1 pubgmobile.com,&sni-2 poe.garena.com]
 proxies:
-  - {name: Games, server: *wss-2, port: 443, type: vmess, uuid: 2a14dec0-367e-11ee-b635-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /zl5h7oej, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: GAME1, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: GAME2, server: sg-8.0rd.net, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: GAME3, server: *wss-2, port: 443, type: vmess, uuid: 390cfca0-3b3b-11ee-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /zutf69j5, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: game1, server: id-1.test3.net, port: 443, type: trojan, password: 9bf75780-3b6f-11ee-9e84-1239d0255272, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
-  - {name: game2, server: id-1.test3.net, port: 443, type: trojan, password: 9bf75780-3b6f-11ee-9e84-1239d0255272, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
-  - {name: Game-1, server: id-1.test3.net, port: 443, type: trojan, password: 39cf4070-3cc4-11ee-80c2-1239d0255272, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
-  - {name: Game-2, server: id-1.test3.net, port: 443, type: trojan, password: 39cf4070-3cc4-11ee-80c2-1239d0255272, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
+  - {name: Game-1, server: sg-8.0rd.net, port: 443, type: vmess, uuid: d47934c0-40dd-11ee-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /josni9z2, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: Game-2, server: *wss-2: 443, type: vmess, uuid: d47934c0-40dd-11ee-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /josni9z2, headers: {Host: sg-8.0rd.net}}, udp: true}
   
 # Server update
