@@ -1,6 +1,8 @@
-wss: [&wss-1 104.17.3.81,&wss-2 www.noice.id]
+wss: [&wss-1 104.17.3.81,&wss-2 sogood.linefriends.com,&wss-3 zendesk1.grab.com]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com]
 proxies:
-  - {name: Menolak Coid 🗿, server: *wss-1, port: 80, type: vmess, uuid: a74c2cd0-3cc3-11ee-b535-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /w8lh7vtu, headers: {Host: sg-9.0rd.net}}, udp: true}
-  - {name: Menolak Coid 🗿⚰️, server: *wss-2, port: 80, type: vmess, uuid: a74c2cd0-3cc3-11ee-b535-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /w8lh7vtu, headers: {Host: sg-9.0rd.net}}, udp: true}
+  - {name: flex-1, server: *wss-1, port: 80, type: vmess, uuid: c1696a10-40c9-11ee-b830-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /g8p3euaz, headers: {Host: sg-9.0rd.net}}, udp: true}
+  - {name: flex-2, server: *wss-2, port: 80, type: vmess, uuid: c1696a10-40c9-11ee-b830-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /g8p3euaz, headers: {Host: sg-9.0rd.net}}, udp: true}
+  - {name: flex-3, server: *wss-3, port: 80, type: vmess, uuid: c1696a10-40c9-11ee-b830-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-9.0rd.net, network: ws, ws-opts: {path: /g8p3euaz, headers: {Host: sg-9.0rd.net}}, udp: true}
+
 # Server update
