@@ -1,7 +1,7 @@
 wss: [&wss-1 www.noice.id,&wss-2 cdn.appsflyer.com]
 sni: [&sni-1 pubgmobile.com,&sni-2 poe.garena.com]
 proxies:
-  - {name: Game-1, server: sg-8.0rd.net, port: 443, type: vmess, uuid: d47934c0-40dd-11ee-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /josni9z2, headers: {Host: sg-8.0rd.net}}, udp: true}
+  - {name: Game-2, server: sg-8.0rd.net, 443, type: vmess, uuid: d47934c0-40dd-11ee-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /josni9z2, headers: {Host: sg-8.0rd.net}}, udp: true}
   - {name: Game-2, server: *wss-2, 443, type: vmess, uuid: d47934c0-40dd-11ee-b637-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /josni9z2, headers: {Host: sg-8.0rd.net}}, udp: true}
   
 # Server update
