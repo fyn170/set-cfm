@@ -4,4 +4,7 @@ proxies:
   - {name: Game1, server: id-1.0rd.net, port: 443, type: vmess, uuid: 5b7fead0-4717-11ee-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: /lpt80u5o, headers: {Host: id-1.0rd.net}}, udp: true}
   - {name: Game2, server: id-1.0rd.net, port: 443, type: vmess, uuid: 5b7fead0-4717-11ee-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: /lpt80u5o, headers: {Host: id-1.0rd.net}}, udp: true}
   - {name: Game3, server: *wss-2, port: 443, type: vmess, uuid: 5b7fead0-4717-11ee-b633-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /lpt80u5o, headers: {Host: id-1.0rd.net}}, udp: true}
+  - {name: Game4, server: id.josvpn.me, port: 443, type: trojan, password: 96006b48-22c7-4cb0-af1a-a2514148f6ad, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /trojan, headers: {Host: id.josvpn.me}}, udp: true}
+  - {name: Game5, server: id.josvpn.me, port: 443, type: trojan, password: 96006b48-22c7-4cb0-af1a-a2514148f6ad, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /trojan, headers: {Host: id.josvpn.me}}, udp: true}
+  - {name: Game6, server: *wss-2, port: 443, type: trojan, password: 96006b48-22c7-4cb0-af1a-a2514148f6ad, skip-cert-verify: true, sni: id.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: id.josvpn.me}}, udp: true}
 # Server update
