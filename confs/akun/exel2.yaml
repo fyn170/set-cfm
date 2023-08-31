@@ -7,4 +7,6 @@ proxies:
   - {name: flex-1, server: *wss-1, port: 80, type: vmess, uuid: b5901f50-459d-11ee-b339-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-1.0rd.net, network: ws, ws-opts: {path: /jpzokd5t, headers: {Host: sg-1.0rd.net}}, udp: true}
   - {name: flex-2, server: *wss-2, port: 80, type: vmess, uuid: b5901f50-459d-11ee-b339-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-1.0rd.net, network: ws, ws-opts: {path: /jpzokd5t, headers: {Host: sg-1.0rd.net}}, udp: true}
   - {name: flex-3, server: *wss-3, port: 80, type: vmess, uuid: b5901f50-459d-11ee-b339-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-1.0rd.net, network: ws, ws-opts: {path: /jpzokd5t, headers: {Host: sg-1.0rd.net}}, udp: true}
+  - {name: Anu-Harian, server: *wss-1, port: 443, type: trojan, password: db8fd160-4810-11ee-9524-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: Unli-Turbo, server: *wss-3, port: 443, type: trojan, password: db8fd160-4810-11ee-9524-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
 # Server update
