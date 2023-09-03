@@ -1,7 +1,6 @@
 wss: [&wss-1 104.17.3.81,&wss-2 sogood.linefriends.com,&wss-3 zendesk1.grab.com]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
 proxies:
-  - {name: anu-sg1, server: *wss-1, port: 80, type: vmess, uuid: 59fc3180-49a8-11ee-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: id-1.0rd.net, network: ws, ws-opts: {path: /0yulk13x, headers: {Host: id-1.0rd.net}}, udp: true}
-  - {name: anu-sg2, server: id-1.0rd.net, port: 80, type: vmess, uuid: 59fc3180-49a8-11ee-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: *sni-3, network: ws, ws-opts: {path: /0yulk13x, headers: {Host: id-1.0rd.net}}, udp: true}
   - {name: id-1, server: *wss-1, port: 80, type: vmess, uuid: dca91b88-6a16-4b92-9957-a1a589cb4ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
+
 # Server update
