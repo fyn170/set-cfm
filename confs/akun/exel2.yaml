@@ -1,9 +1,6 @@
 wss: [&wss-1 104.17.3.81,&wss-2 104.18.107.64,&wss-3 zendesk1.grab.com]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
 proxies:
-  - {name: id-1, server: *wss-1, port: 80, type: vmess, uuid: dca91b88-6a16-4b92-9957-a1a589cb4ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
-  - {name: id-1, server: *wss-2, port: 80, type: vmess, uuid: dca91b88-6a16-4b92-9957-a1a589cb4ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: idray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: idray.serverip.my.id}}, udp: true}
-  - {name: idt-1, server: *wss-1, port: 443, type: trojan, password: a6fa4500-4a74-11ee-8029-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
-  - {name: idt-2, server: *wss-2, port: 443, type: trojan, password: a6fa4500-4a74-11ee-8029-1239d0255272, skip-cert-verify: true, sni: id-1.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: id-1.test3.net}}, udp: true}
-
+  - {name: idt1, server: *wss-1, port: 443, type: trojan, password: 20101b38-b6f6-4e9a-a2c0-7691189f7cd5, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
+  - {name: idt2, server: *wss-2, port: 443, type: trojan, password: 20101b38-b6f6-4e9a-a2c0-7691189f7cd5, skip-cert-verify: true, sni: idt1.sshocean.net, network: ws, ws-opts: {path: /websocket, headers: {Host: idt1.sshocean.net}}, udp: true}
 # Server update
