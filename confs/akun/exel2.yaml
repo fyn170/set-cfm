@@ -7,5 +7,7 @@ proxies:
   - {name: sgv2, server: *wss-2, port: 80, type: vmess, uuid: ad2bc2f8-bb53-421e-9fa6-e50562dd7bd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-vmess.greenssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg-vmess.greenssh.xyz}}, udp: true}
   - {name: tj1, server: *wss-1, port: 443, type: trojan, password: 4928d6c0-52d1-11ee-bade-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
   - {name: tj2, server: *wss-2, port: 443, type: trojan, password: 4928d6c0-52d1-11ee-bade-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
-
+  - {name: tr1, server: *wss-1, port: 443, type: trojan, password: 22b6ad12-c160-4350-82da-bb7137322e13, skip-cert-verify: true, sni: v2ray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: v2ray.josvpn.me}}, udp: true}
+  - {name: tr2, server: *wss-2, port: 443, type: trojan, password: 22b6ad12-c160-4350-82da-bb7137322e13, skip-cert-verify: true, sni: v2ray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: v2ray.josvpn.me}}, udp: true}
+  
 # Server update
