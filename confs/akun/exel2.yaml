@@ -3,4 +3,6 @@ sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
 proxies:
   - {name: Sg-1, server: *wss-1, port: 443, type: vmess, uuid: 17162bef-760d-42c1-91fc-1badf45674cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmws.mainssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sgmws.mainssh.xyz}}, udp: true}
   - {name: Sg-2, server: *wss-2, port: 443, type: vmess, uuid: 17162bef-760d-42c1-91fc-1badf45674cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmws.mainssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sgmws.mainssh.xyz}}, udp: true}
+  - {name: SGt-1, server: *wss-1, port: 443, type: trojan, password: e48ece52-23eb-4b92-8457-1734d8d5994f, skip-cert-verify: true, sni: xray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: xray.josvpn.me}}, udp: true}
+  - {name: SGt-2, server: *wss-2, port: 443, type: trojan, password: e48ece52-23eb-4b92-8457-1734d8d5994f, skip-cert-verify: true, sni: xray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: xray.josvpn.me}}, udp: true}
 # Server update
