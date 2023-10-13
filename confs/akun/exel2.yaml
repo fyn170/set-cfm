@@ -5,5 +5,6 @@ proxies:
   - {name: sg-2, server: *wss-2, port: 80, type: vmess, uuid: cb42515b-75b1-4e64-a0db-51e488e8159a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
   - {name: biz-1, server: *wss-1, port: 443, type: vless, uuid: 143e3eab-3098-4f82-9483-62430bb224f1, cipher: auto, tls: true, skip-cert-verify: true, servername: vl6.rnd.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vl6.rnd.biz.id}}, udp: true}
   - {name: biz-2, server: *wss-2, port: 443, type: vless, uuid: 143e3eab-3098-4f82-9483-62430bb224f1, cipher: auto, tls: true, skip-cert-verify: true, servername: vl6.rnd.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vl6.rnd.biz.id}}, udp: true}
-
+  - {name: vl1, server: *wss-1, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, cipher: auto, tls: true, skip-cert-verify: true, servername: vl21.rnd.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vl21.rnd.biz.id}}, udp: true}
+  - {name: vl2, server: *wss-2, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, cipher: auto, tls: true, skip-cert-verify: true, servername: vl21.rnd.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vl21.rnd.biz.id}}, udp: true}
 # Server update
