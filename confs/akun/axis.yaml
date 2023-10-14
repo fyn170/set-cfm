@@ -1,7 +1,7 @@
 wss: [&wss-1 www.noice.id,&wss-2 cdn.appsflyer.com]
 sni: [&sni-1 pubgmobile.com,&sni-2 poe.garena.com]
 proxies:
-  - {name: Sg-1, server: aray.josvpn.me, port: 443, type: trojan, password: 6f87968e-2576-4920-b547-2b34774a79a0, skip-cert-verify: true, sni: *sni-1, network: ws, ws-opts: {path: /trojan, headers: {Host: aray.josvpn.me}}, udp: true}
-  - {name: Sg-2, server: aray.josvpn.me, port: 443, type: trojan, password: 6f87968e-2576-4920-b547-2b34774a79a0, skip-cert-verify: true, sni: *sni-2, network: ws, ws-opts: {path: /trojan, headers: {Host: aray.josvpn.me}}, udp: true}
-  
+  - {name: sg-1, server: vl30.rnd.biz.id, port: 443, type: vless, uuid: adbb9c54-a35b-494b-9a4d-dec54b0e1f7a, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: "%2F%3Fed%3D2048", headers: {Host: vl30.rnd.biz.id}}, udp: true}
+  - {name: sg-2, server: vl30.rnd.biz.id, port: 443, type: vless, uuid: adbb9c54-a35b-494b-9a4d-dec54b0e1f7a, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: "%2F%3Fed%3D2048", headers: {Host: vl30.rnd.biz.id}}, udp: true}
+
 # Server update
