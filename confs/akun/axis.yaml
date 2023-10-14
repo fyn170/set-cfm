@@ -3,5 +3,6 @@ sni: [&sni-1 pubgmobile.com,&sni-2 poe.garena.com]
 proxies:
   - {name: sg-1, server: vl30.rnd.biz.id, port: 443, type: vless, uuid: adbb9c54-a35b-494b-9a4d-dec54b0e1f7a, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: "%2F%3Fed%3D2048", headers: {Host: vl30.rnd.biz.id}}, udp: true}
   - {name: sg-2, server: vl30.rnd.biz.id, port: 443, type: vless, uuid: adbb9c54-a35b-494b-9a4d-dec54b0e1f7a, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: "%2F%3Fed%3D2048", headers: {Host: vl30.rnd.biz.id}}, udp: true}
+  - {name: sg-3, server: *wss-2, port: 443, type: vless, uuid: adbb9c54-a35b-494b-9a4d-dec54b0e1f7a, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: vl30.rnd.biz.id, network: ws, ws-opts: {path: "%2F%3Fed%3D2048", headers: {Host: vl30.rnd.biz.id}}, udp: true}
 
 # Server update
