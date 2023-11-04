@@ -3,6 +3,9 @@
 # (https://github.com/fyn170/conf-cfm)
 
 payload:
+  # Cloudflared
+  - DOMAIN,argotunnel.com
+  - DST-PORT,7844
   # Zerotier
   - DOMAIN-SUFFIX,zerotier.com
   - DST-PORT,9993
