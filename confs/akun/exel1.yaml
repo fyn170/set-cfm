@@ -1,9 +1,5 @@
 wss: [&wss-1 104.17.3.81,&wss-2 sogood.linefriends.com,&wss-3 zendesk1.grab.com]
 proxies:
-  - {name: Harian, server: *wss-1, port: 80, type: vmess, uuid: 98a48c00-3681-11ee-b931-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /4vyhqop7, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: Bulanan, server: *wss-2, port: 80, type: vmess, uuid: 98a48c00-3681-11ee-b931-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /4vyhqop7, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: TURBO, server: *wss-3, port: 80, type: vmess, uuid: 98a48c00-3681-11ee-b931-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sg-8.0rd.net, network: ws, ws-opts: {path: /4vyhqop7, headers: {Host: sg-8.0rd.net}}, udp: true}
-  - {name: Harian900Mb, server: *wss-1, port: 443, type: trojan, password: c70b13c0-3cc4-11ee-b77c-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
-  - {name: Line/Wa, server: *wss-2, port: 443, type: trojan, password: c70b13c0-3cc4-11ee-b77c-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
-  - {name: Turbo1Gb, server: *wss-3, port: 443, type: trojan, password: c70b13c0-3cc4-11ee-b77c-1239d0255272, skip-cert-verify: true, sni: sg-4.test3.net, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-4.test3.net}}, udp: true}
+  - {name: Ovh, server: *wss-1, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext57.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext57.zxv.biz.id}}, udp: true}
+  - {name: Vultr, server: *wss-1, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext57.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext57.zxv.biz.id}}, udp: true}
 # Server update
