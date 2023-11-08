@@ -1,1 +1,5 @@
+sni: [&sni-1 google.com,&sni-2 bing.com]
 proxies:
+  - {name: akun-1, server: ext47.zxv.biz.id, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-1, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext47.zxv.biz.id}}, udp: true}
+  - {name: akun-2, server: ext47.zxv.biz.id, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: *sni-2, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext47.zxv.biz.id}}, udp: true}
+# Server update
