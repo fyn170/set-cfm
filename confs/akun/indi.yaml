@@ -3,5 +3,5 @@ proxies:
   - {name: akun-1, server: ext47.zxv.biz.id, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext47.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext47.zxv.biz.id}}, udp: true}
   - {name: akun-2, server: ext47.zxv.biz.id, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext47.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext47.zxv.biz.id}}, udp: true}
   - {name: akun-3, server: ext69.zxv.biz.id, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext69.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext69.zxv.biz.id}}, udp: true}
-
+  - {name: akun-4, server: testing.ntr.biz.id, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: testing.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: testing.ntr.biz.id}}, udp: true}
 # Server update
