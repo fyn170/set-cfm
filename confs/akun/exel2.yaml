@@ -1,6 +1,5 @@
 wss: [&wss-1 104.17.3.81,&wss-2 104.18.107.64,&wss-3 zendesk1.grab.com]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
 proxies:
-  - {name: Ovh, server: *wss-1, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext57.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext57.zxv.biz.id}}, udp: true}
-  - {name: Vultr, server: *wss-2, port: 443, type: vless, uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356, cipher: auto, tls: true, skip-cert-verify: true, servername: ext57.zxv.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ext57.zxv.biz.id}}, udp: true}
+  - {name: Edu, server: *wss-1, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: testing.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: testing.ntr.biz.id}}, udp: true}
 # Server update
