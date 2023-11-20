@@ -1,4 +1,5 @@
 wss: [&wss-1 104.18.2.2,&wss-2 104.18.3.2]
 proxies:
+  - {name: Test-akun, server: *wss-1, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: testing.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: testing.ntr.biz.id}}, udp: true}
 
 # Add Account Here
