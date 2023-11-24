@@ -1,4 +1,7 @@
 sni: [&sni-1 google.com,&sni-2 bing.com]
 proxies:
-  - {name: new domain, server: cx43.ntr.biz.id, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: cx43.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: cx43.ntr.biz.id}}, udp: true}
+proxies:
+  - {name: 🇮🇩 Incapsula-1, server: cx1.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx1.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx1.ntr.biz.id}}, udp: true}
+  - {name: 🇮🇩 Incapsula-2, server: cx2.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx2.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx2.ntr.biz.id}}, udp: true}
+  - {name: 🇮🇩 Incapsula-3, server: cx3.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx3.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx3.ntr.biz.id}}, udp: true}
 # Server update
