@@ -1,4 +1,4 @@
 wss: [&wss-1 gov.ruangguru.com,&wss-2 gw.ruangguru.com]
 proxies:
-  - {name: akun-baruu, server: v2ray.josvpn.me, port: 443, type: trojan, password: 35704ce5-ee7b-42e4-95c5-6b529d1363d4, skip-cert-verify: true, sni: v2ray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: v2ray.josvpn.me}}, udp: true}
+  - {name: akun-baruu, server: *wss-1, port: 443, type: trojan, password: 35704ce5-ee7b-42e4-95c5-6b529d1363d4, skip-cert-verify: true, sni: v2ray.josvpn.me, network: ws, ws-opts: {path: /trojan, headers: {Host: v2ray.josvpn.me}}, udp: true}
 # Wait next update
