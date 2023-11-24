@@ -1,3 +1,4 @@
 wss: [&wss-1 gov.ruangguru.com,&wss-2 gw.ruangguru.com]
 proxies:
-  - {name: akun-akun, server: gov.ruangguru.com, port: 80, type: vmess, uuid: 654b23b0-25ac-4a4b-8076-a6d1271d7929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray.josvpn.me, network: ws, ws-opts: {path: /vmess, headers: {Host: v2ray.josvpn.me}}, udp: true}
+  - {name: akun-1, server: gov.ruangguru.com, port: 80, type: vmess, uuid: 654b23b0-25ac-4a4b-8076-a6d1271d7929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray.josvpn.me, network: ws, ws-opts: {path: /vmess, headers: {Host: v2ray.josvpn.me}}, udp: true}
+  - {name: akun-2, server: gw.ruangguru.com, port: 443, type: vmess, uuid: 817eaf41-2443-402b-a031-e361f3fcc788, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3mws.mainssh.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg3mws.mainssh.xyz}}, udp: true}
