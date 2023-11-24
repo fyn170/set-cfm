@@ -1,5 +1,6 @@
 wss: [&wss-1 104.18.2.2,&wss-2 104.18.3.2]
 proxies:
   - {name: Test-akun, server: *wss-1, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: testing.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: testing.ntr.biz.id}}, udp: true}
+  - {name: akun-2, server: "*wss-1", port: 443, type: vmess, uuid: 21e27e9b-7f6f-4be2-9aee-6554f046a627, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
   - {name: New-akun, server: *wss-1, port: 80, type: vmess, uuid: 654b23b0-25ac-4a4b-8076-a6d1271d7929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v2ray.josvpn.me, network: ws, ws-opts: {path: /vmess, headers: {Host: v2ray.josvpn.me}}, udp: true}
 # Add Account Here
