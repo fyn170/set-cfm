@@ -1,6 +1,5 @@
 sni: [&sni-1 google.com,&sni-2 bing.com]
 proxies:
-proxies:
   - {name: 🇮🇩 Incapsula-1, server: cx1.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx1.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx1.ntr.biz.id}}, udp: true}
   - {name: 🇮🇩 Incapsula-2, server: cx2.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx2.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx2.ntr.biz.id}}, udp: true}
   - {name: 🇮🇩 Incapsula-3, server: cx3.ntr.biz.id, port: 443, type: vless, uuid: 9132908c-57bf-4858-8845-e9aa385b6e16, cipher: auto, tls: true, skip-cert-verify: true, servername: cx3.ntr.biz.id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cx3.ntr.biz.id}}, udp: true}
