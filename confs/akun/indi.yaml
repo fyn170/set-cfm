@@ -1,4 +1,4 @@
 sni: [&sni-1 google.com,&sni-2 bing.com]
 proxies:
-  - {name: new domain, server: testing.ntr.biz.id, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: testing.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: testing.ntr.biz.id}}, udp: true}
+  - {name: new domain, server: cx43.ntr.biz.id, port: 443, type: vless, uuid: 418c074c-aff0-43ea-8b0f-03edb59a0272, cipher: auto, tls: true, flow: none, skip-cert-verify: true, servername: cx43.ntr.biz.id, network: ws, ws-opts: {path: /free, headers: {Host: cx43.ntr.biz.id}}, udp: true}
 # Server update
