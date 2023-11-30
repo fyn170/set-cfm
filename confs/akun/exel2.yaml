@@ -1,5 +1,6 @@
 wss: [&wss-1 104.17.3.81,&wss-2 104.18.107.64,&wss-3 zendesk1.grab.com]
 sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
 proxies:
-  - {name: pup, server: *wss-1, port: 443, type: vmess, uuid: 52ffc69e-5344-4a2c-9396-53954f9e49ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-us1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
+  - {name: US-padjnebf, server: *wss-1, port: 443, type: vmess, uuid: 52ffc69e-5344-4a2c-9396-53954f9e49ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-us1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
+  - {name: SG-hdosnxke, server: *wss-1, port: 443, type: vmess, uuid: 99286c5c-86ba-472b-89ce-d5b505fed769, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
 # Server update
