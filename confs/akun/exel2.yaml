@@ -1,6 +1,10 @@
-wss: [&wss-1 104.17.3.81,&wss-2 104.18.107.64,&wss-3 zendesk1.grab.com]
-sni: [&sni-1 meet.google.com,&sni-2 kh.gooogle.com,&sni-3 gw.ruangguru.com]
+Host: [&host-1 net17.ntr.biz.id, &host-2 net18.ntr.biz.id, &host-3 net19.ntr.biz.id, &host-4 net20.ntr.biz.id, &host-5 net21.ntr.biz.id]
+UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
+Wss: &wss-1 104.17.3.81
 proxies:
-  - {name: US-padjnebf, server: *wss-1, port: 443, type: vmess, uuid: 52ffc69e-5344-4a2c-9396-53954f9e49ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-us1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
-  - {name: SG-hdosnxke, server: *wss-1, port: 443, type: vmess, uuid: 99286c5c-86ba-472b-89ce-d5b505fed769, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
+  - {name: 🇸🇬 Amazon, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-1}}, udp: true}
+  - {name: 🇸🇬 Vultr, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-2}}, udp: true}
+  - {name: 🇸🇬 Datacamp, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-3}}, udp: true}
+  - {name: 🇸🇬 HostHatch, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-4, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-4}}, udp: true}
+  - {name: 🇸🇬 Alike, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-5, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-5}}, udp: true}
 # Server update
