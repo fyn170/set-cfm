@@ -2,5 +2,6 @@ Host: [&host-1 net17.ntr.biz.id, &host-2 net18.ntr.biz.id, &host-3 net19.ntr.biz
 UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
 Wss: &wss-1 104.17.3.81
 proxies:
-  - {name: SG Trojan-WS, server: *wss-1, port: 443, type: trojan, password: 1c428fe0-9977-11ee-ac74-1239d0255272, skip-cert-verify: true, sni: sg3.socifiles.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: sg3.socifiles.com}}, udp: true}
+  - {name: 🇸🇬 Trojan, server: *wss-1, port: 443, type: trojan, password: 1c428fe0-9977-11ee-ac74-1239d0255272, skip-cert-verify: true, sni: sg3.socifiles.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: sg3.socifiles.com}}, udp: true}
+  - {name: 🇸🇬 Vmess, server: *wss-1, port: 443, type: vmess, uuid: d4ea9268-3964-4ca2-8a45-251345158e09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg1b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
 # Server update
