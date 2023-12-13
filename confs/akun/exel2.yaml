@@ -2,9 +2,5 @@ Host: [&host-1 net17.ntr.biz.id, &host-2 net18.ntr.biz.id, &host-3 net19.ntr.biz
 UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
 Wss: &wss-1 104.17.3.81
 proxies:
-  - {name: 🇸🇬 Amazon, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-1}}, udp: true}
-  - {name: 🇸🇬 Vultr, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-2}}, udp: true}
-  - {name: 🇸🇬 Datacamp, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-3}}, udp: true}
-  - {name: 🇸🇬 HostHatch, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-4, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-4}}, udp: true}
-  - {name: 🇸🇬 Alike, server: *wss-1, port: 80, type: vless, uuid: *uuid, cipher: auto, tls: false, skip-cert-verify: true, servername: *host-5, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-5}}, udp: true}
+  - {name: SG Trojan-WS, server: *wss-1, port: 443, type: trojan, password: 1c428fe0-9977-11ee-ac74-1239d0255272, skip-cert-verify: true, sni: sg3.socifiles.com, network: ws, ws-opts: {path: /trojanws, headers: {Host: sg3.socifiles.com}}, udp: true}
 # Server update
