@@ -7,7 +7,8 @@ payload:
   - DOMAIN,argotunnel.com
   - DST-PORT,7844
   # Zerotier
-  - DOMAIN-SUFFIX,zerotier.com
+  - DOMAIN-KEYWORD,zerotier  
+  - DOMAIN,zerotier.com
   - DST-PORT,9993
   - DST-PORT,29994
   - DST-PORT,40775
