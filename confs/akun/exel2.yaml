@@ -5,5 +5,5 @@ proxies:
   - {name: 🇸🇬 Linode-sg, server: *wss-1, port: 443, type: vless, uuid: 5ecec113-bba0-41c7-8a91-b051f5b0c211, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-1}}, udp: true}
   - {name: 🇸🇬 Oracle-sg, server: *wss-1, port: 443, type: vless, uuid: 9ff210ba-471b-489b-ad5a-f7785a0a6399, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-2}}, udp: true}
   - {name: 🇸🇬 Tencent-sg, server: *wss-1, port: 443, type: vless, uuid: 37e127f6-8381-40b3-b8e3-7a981f425ee9, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-3}}, udp: true}
-
+  - {name: 🇸🇬 SG, server: *wss-1, port: 443, type: trojan, password: d28a27a0-0334-11ef-b915-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
 # Server update
