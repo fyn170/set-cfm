@@ -1,9 +1,7 @@
-Host: [&host-1 sg3.dugong2024.workers.dev, &host-2 sg4.dugong2024.workers.dev, &host-3 sg5.dugong2024.workers.dev]
+Host: [&host-1 sg.vless.sbs, &host-2 sg4.dugong2024.workers.dev, &host-3 sg5.dugong2024.workers.dev]
 UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
 Wss: &wss-1 104.17.3.81
 proxies:
-  - {name: 🇸🇬 Linode-sg, server: *wss-1, port: 443, type: vless, uuid: 5ecec113-bba0-41c7-8a91-b051f5b0c211, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-1}}, udp: true}
-  - {name: 🇸🇬 Oracle-sg, server: *wss-1, port: 443, type: vless, uuid: 9ff210ba-471b-489b-ad5a-f7785a0a6399, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-2}}, udp: true}
-  - {name: 🇸🇬 Tencent-sg, server: *wss-1, port: 443, type: vless, uuid: 37e127f6-8381-40b3-b8e3-7a981f425ee9, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host-3}}, udp: true}
+  - {name: 🇸🇬 vless-sg, server: *wss-1, port: 443, type: vless, uuid: 47f5ab29-37cb-4f1a-8638-765c59774836, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/vless", headers: {Host: *host-1}}, udp: true}
   - {name: 🇸🇬 SG, server: *wss-1, port: 443, type: trojan, password: d28a27a0-0334-11ef-b915-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
 # Server update
