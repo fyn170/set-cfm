@@ -1,7 +1,7 @@
-Host: [&host-1 sg.vless.sbs, &host-2 sg4.dugong2024.workers.dev, &host-3 sg5.dugong2024.workers.dev]
+Host: [&host-1 sg.vless.sbs, &host-2 sg-xray.cui.my.id, &host-3 sg5.dugong2024.workers.dev]
 UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
 Wss: &wss-1 104.17.3.81
 proxies:
-  - {name: 🇸🇬 vless-sg, server: *wss-1, port: 443, type: vless, uuid: 47f5ab29-37cb-4f1a-8638-765c59774836, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/vless", headers: {Host: *host-1}}, udp: true}
-  - {name: 🇸🇬 SG, server: *wss-1, port: 443, type: trojan, password: d28a27a0-0334-11ef-b915-1239d0255272, skip-cert-verify: true, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}, udp: true}
+  - {name: 🇸🇬 sg-vless, server: *wss-1, port: 443, type: vless, uuid: 47f5ab29-37cb-4f1a-8638-765c59774836, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/vless", headers: {Host: *host-1}}, udp: true}
+  - {name: 🇸🇬 sg-cloud, server: *wss-1, port: 443, type: vless, uuid: a3aab829-cd35-4cd7-a433-9cb6da78d65d, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: /ftunnel, headers: {Host: *host-2}}, udp: true}
 # Server update
