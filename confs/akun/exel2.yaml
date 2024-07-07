@@ -1,7 +1,10 @@
-Host: [&host-1 sg.vless.sbs, &host-2 sg-xray.cui.my.id, &host-3 sg5.dugong2024.workers.dev]
-UuID: &uuid e2443e49-e0ce-4628-808f-76469b53cf66
-Wss: &wss-1 104.17.3.81
+Host: [&host_id id1-ws.cui.my.id, &host_sg sg1-ws.cui.my.id]
+Wss: [&wss-1 104.17.3.81, &wss-2 ava.game.naver.com, &wss-3 test-devina.cui.my.id]
 proxies:
-  - {name: 🇸🇬 sg-vless, server: *wss-1, port: 443, type: vless, uuid: 47f5ab29-37cb-4f1a-8638-765c59774836, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-1, network: ws, ws-opts: {path: "/vless", headers: {Host: *host-1}}, udp: true}
-  - {name: 🇸🇬 sg-cloud, server: *wss-1, port: 443, type: vless, uuid: a3aab829-cd35-4cd7-a433-9cb6da78d65d, cipher: auto, tls: true, skip-cert-verify: true, servername: *host-2, network: ws, ws-opts: {path: /ftunnel, headers: {Host: *host-2}}, udp: true}
+  - {name: id1-🇮🇩, server: *wss-1, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
+  - {name: id2-🇮🇩, server: *wss-2, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
+  - {name: id3-🇮🇩, server: *wss-3, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
+  - {name: sg1-🇸🇬, server: *wss-1, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
+  - {name: sg2-🇸🇬, server: *wss-2, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
+  - {name: sg3-🇸🇬, server: *wss-3, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
 # Server update
