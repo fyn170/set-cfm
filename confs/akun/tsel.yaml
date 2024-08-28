@@ -1,4 +1,9 @@
+Host: [&host_id id1-ws.cui.my.id, &host_sg sg1-ws.cui.my.id]
+Wss: [&wss-1 104.18.3.2, &wss-2 gw.ruangguru.com]
 proxies:
-  - {name: SEMENTARA SERVER OFF ⚠️, server: 103.17.3.81, port: 443, type: vmess, uuid: 4746b3df-1acf-4351-8104-350a328061ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1ray.serverip.my.id, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg1ray.serverip.my.id}}, udp: true}
-  
+  - {name: id1-🇮🇩, server: *wss-1, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
+  - {name: id2-🇮🇩, server: *wss-2, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
+  - {name: sg1-🇸🇬, server: *wss-1, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
+  - {name: sg2-🇸🇬, server: *wss-2, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
+
 # Server update
