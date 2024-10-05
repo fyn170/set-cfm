@@ -1,9 +1,23 @@
-Host: [&host_id id1-ws.cui.my.id, &host_sg sg1-ws.cui.my.id]
-Wss: [&wss-1 104.18.3.2, &wss-2 gw.ruangguru.com]
+# WSS (WebSocket Secure)
+wss_1: &wss_1 104.18.3.2
+wss_2: &wss_2 gw.ruangguru.com
+
+# Hosts
+host_ID: &host_ID id.ftun.us.kg
+host_SG: &host_SG sg.ftun.us.kg
+
+# Template VLESS
+vless_template: &vless_template {port: 443, type: vless, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true}
+
+# Akun VLESS
+vless_ID: &ID {<<: *vless_template, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, servername: *host_ID, ws-opts: {path: "/?ed=2048", headers: {Host: *host_ID}}}
+vless_SG: &SG {<<: *vless_template, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, servername: *host_SG, ws-opts: {path: "/?ed=2048", headers: {Host: *host_SG}}}
+
+# Proxies
 proxies:
-  - {name: id1-🇮🇩, server: *wss-1, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
-  - {name: id2-🇮🇩, server: *wss-2, port: 443, type: vless, uuid: 25a59dad-2a72-4b3d-a225-7dd2a8c811aa, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_id, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_id}}, udp: true}
-  - {name: sg1-🇸🇬, server: *wss-1, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
-  - {name: sg2-🇸🇬, server: *wss-2, port: 443, type: vless, uuid: 19440caa-2999-4921-b3c9-8573cf6e5e0e, cipher: auto, tls: true, skip-cert-verify: true, servername: *host_sg, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: *host_sg}}, udp: true}
+  - {name: ID1 🇮🇩, <<: *ID, server: *wss_1}
+  - {name: ID2 🇮🇩, <<: *ID, server: *wss_2}
+  - {name: SG1 🇸🇬, <<: *SG, server: *wss_1}
+  - {name: SG2 🇸🇬, <<: *SG, server: *wss_2}
 
 # Server update
